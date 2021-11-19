@@ -30,7 +30,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2 class="pageTitle">About Us</h2>
+                        <h2 class="pageTitle">A propos de nous</h2>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="about-text">
-                                <h2><span class="coloured">About</span> Company</h2>
+                                <h2><span class="coloured">Notre</span> Agence</h2>
                                 <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Vivamus
                                     suscipit tortor eget felis porttitor volutpat. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
                                 <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo..</p>
@@ -62,14 +62,14 @@
                         <div class="col-md-4">
                             <!-- Heading and para -->
                             <div class="block-heading-two">
-                                <h3><span>Why Choose Us?</span></h3>
+                                <h3><span>Pourquoi nous choisi?</span></h3>
                             </div>
                             <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
                                 ipsam voluptatem quia voluptas sit aspernatur. <br/><br/>Sed ut perspiciaatis iste natus error sit voluptatem probably haven't heard of them accusamus.</p>
                         </div>
                         <div class="col-md-4">
                             <div class="block-heading-two">
-                                <h3><span>Our Solution</span></h3>
+                                <h3><span>Notre Solution</span></h3>
                             </div>
                             <!-- Accordion starts -->
                             <div class="panel-group" id="accordion-alt3">
@@ -139,7 +139,7 @@
 
                         <div class="col-md-4">
                             <div class="block-heading-two">
-                                <h3><span>Our Expertise</span></h3>
+                                <h3><span>Nos Expertises</span></h3>
                             </div>
                             <h6>Web Development</h6>
                             <div class="progress pb-sm">
@@ -177,7 +177,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="about-text">
-                                        <h3><span>Our Organization</span></h3>
+                                        <h3><span>Notre Organisation</span></h3>
                                         <p>Grids is a responsive Multipurpose Template. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id
                                             orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
 
@@ -202,6 +202,11 @@
                     <!-- Our Team starts -->
 
                     <div class="team-six">
+                        <div class="section-header">
+                            <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Notre Equipe</h2>
+                            <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                        </div>
+
                         <div class="row">
                             <div class="col-md-3 col-sm-6">
                                 <!-- Team Member -->
@@ -247,7 +252,6 @@
                     </div>
 
                     <!-- Our team ends -->
-
 
                 </div>
 

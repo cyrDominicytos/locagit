@@ -34,14 +34,14 @@
                     <li>
                         <img src="img/slides/2.jpg" alt="" />
                         <div class="flex-caption">
-                            <h3>Gated Villas</h3>
+                            <h3>Maisons à louer</h3>
 
                         </div>
                     </li>
                     <li>
                         <img src="img/slides/1.jpg" alt="" />
                         <div class="flex-caption">
-                            <h3>Trendy Home</h3>
+                            <h3>Appartements Meublés</h3>
 
                         </div>
                     </li>
@@ -96,7 +96,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-title text-center">
-                                <h2><span class="coloured">Trending</span> Projects</h2>
+                                <h2><span class="coloured">A LA</span> UNE</h2>
                                 <p>Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque <br>ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
                             </div>
                         </div>
@@ -134,7 +134,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title text-center">
-                            <h2><span class="coloured">Recent</span> Properties</h2>
+                            <h2><span class="coloured">Logements</span> Disponibles</h2>
                             <p>Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque <br>ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title text-center">
-                            <h2><span class="coloured">About</span> Our Company</h2>
+                            <h2><span class="coloured">A propos</span> de notre agence</h2>
                             <p>Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque <br>ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
                                 <li><span class="fa fa-angle-right"></span> Curabitur aliquet quam id dui</li>
                                 <li><span class="fa fa-angle-right"></span> Donec sollicitudin molestie malesuada.</li>
                             </ul>
-                            <a href="#" class="btn btn-primary">Learn More</a>
+                            <a href="about.php" class="btn btn-primary">Lire Plus</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
