@@ -27,7 +27,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2 class="pageTitle">Contact Us</h2>
+				<h2 class="pageTitle">Nous Contacter</h2>
 			</div>
 		</div>
 	</div>
@@ -50,7 +50,7 @@
 								  	
 		   <!-- Form itself -->
           <form name="sentMessage" id="contactForm"  novalidate>
-	       <h3>Contact me</h3>
+	       <h3>Contactez-nous</h3>
 		 <div class="control-group">
                     <div class="controls">
 			<input type="text" class="form-control" 
@@ -77,7 +77,7 @@
 		</div>
                </div> 		 
 	     <div id="success"> </div> <!-- For success/fail messages -->
-	    <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+	    <button type="submit" class="btn btn-primary pull-right">Envoyer</button><br />
           </form>
 								</div>
 								<div class="col-md-6">

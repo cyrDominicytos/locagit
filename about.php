@@ -210,7 +210,7 @@
                         <div class="row">
                             <div class="col-md-3 col-sm-6">
                                 <!-- Team Member -->
-                                <div class="team-member">
+                                <div class="team-member box-area">
                                     <!-- Image -->
                                     <img class="img-responsive" src="img/team1.jpg" alt="">
                                     <!-- Name -->
@@ -220,7 +220,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <!-- Team Member -->
-                                <div class="team-member">
+                                <div class="team-member box-area">
                                     <!-- Image -->
                                     <img class="img-responsive" src="img/team2.jpg" alt="">
                                     <!-- Name -->
@@ -230,7 +230,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <!-- Team Member -->
-                                <div class="team-member">
+                                <div class="team-member box-area">
                                     <!-- Image -->
                                     <img class="img-responsive" src="img/team3.jpg" alt="">
                                     <!-- Name -->
@@ -240,7 +240,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <!-- Team Member -->
-                                <div class="team-member">
+                                <div class="team-member box-area">
                                     <!-- Image -->
                                     <img class="img-responsive" src="img/team4.jpg" alt="">
                                     <!-- Name -->
@@ -278,5 +278,7 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
+
+
 </body>
 </html>

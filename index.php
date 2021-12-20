@@ -31,17 +31,25 @@
             <!-- Slider -->
             <div id="main-slider" class="flexslider">
                 <ul class="slides">
-                    <li>
-                        <img src="img/slides/2.jpg" alt="" />
+                    <li onclick="displayImage('img/slides/2.jpg')">
+                   
+                        <img src="img/slides/2.jpg" alt="" style=" cursor:pointer"/>
                         <div class="flex-caption">
-                            <h3>Maisons à louer</h3>
+                            <h3>Maisons</h3>
 
                         </div>
                     </li>
-                    <li>
+                    <li onclick="displayImage('img/slides/1.jpg')" style=" cursor:pointer">
                         <img src="img/slides/1.jpg" alt="" />
                         <div class="flex-caption">
                             <h3>Appartements Meublés</h3>
+
+                        </div>
+                    </li>
+                    <li onclick="displayImage('img/slides/1.jpg')" style=" cursor:pointer">
+                        <img src="img/slides/1.jpg" alt="" />
+                        <div class="flex-caption">
+                            <h3>Terrain</h3>
 
                         </div>
                     </li>
@@ -60,28 +68,28 @@
                             <div class="col-md-3 col-sm-6 text-center">
                                 <span class="icons c1"><i class="fa fa-home"></i></span>
                                 <div class="box-area">
-                                    <h3>New Projects</h3>
-                                    <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+                                    <h3>Maison</h3>
+                                    <p>Nous disponsons des maisons de qualité</p>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 text-center">
                                 <span class="icons c2"><i class="fa fa-rocket"></i></span>
                                 <div class="box-area">
-                                    <h3>Ready To Move</h3>
+                                    <h3>Appartement</h3>
                                     <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 text-center">
                                 <span class="icons c3"><i class="fa fa-trophy"></i></span>
                                 <div class="box-area">
-                                    <h3>Commercial</h3>
+                                    <h3>Terrain</h3>
                                     <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 text-center">
                                 <span class="icons c4"><i class="fa fa-star"></i></span>
                                 <div class="box-area">
-                                    <h3>Gated Projects</h3>
+                                    <h3>Bureau</h3>
                                     <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                                 </div>
                             </div>
@@ -189,8 +197,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="about-text">
-                            <p>Grids is a responsive Multipurpose Template. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta
-                                dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+                            <p>chez Locagite, nous avons depuis toujours le souci de l’humain, du bien-être des collaborateurs, de la préservation d’un équilibre sain entre les journées de travail et la vie privée. Pour continuer de grandir sans changer d’état d’esprit, nous privilégions une organisation horizontale et des méthodes de management modernes et agiles. Nous osons nous remettre en question chaque jour, nous réinventer quand c’est nécessaire, afin d’être toujours plus performants tout en restant fidèles à nos valeurs..</p>
 
                             <ul class="withArrow">
                                 <li><span class="fa fa-angle-right"></span> Lorem ipsum dolor sit amet</li>
@@ -234,5 +241,11 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script> 
+
+<script>
+    function displayImage(params) {
+        window.open(params);
+    }
+</script>
 </body>
 </html>
