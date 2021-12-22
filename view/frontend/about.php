@@ -1,32 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <title>Locagite - A propos de nous</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <meta name="author" content="http://webthemez.com" />
-    <!-- css -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-    <link href="css/flexslider.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/customise/carousel.css" rel="stylesheet" />
+<?php $title = 'Locagite - A propos de nous'; ?>
+<?php ob_start(); ?>
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-    <div id="wrapper">
-
-        <!-- start header -->
-        <?php include_once("header.html") ?>
-        <!-- end header -->
         <section id="inner-headline">
             <div class="container">
                 <div class="row">
@@ -41,7 +16,7 @@
                 <div class="container">
                     <div class="row showcase-section">
                         <div class="col-md-6">
-                            <img src="img/dev1.png" alt="showcase image">
+                            <img src="../../public/img/dev1.png" alt="showcase image">
                         </div>
                         <div class="col-md-6">
                             <div class="about-text">
@@ -192,7 +167,7 @@
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="about-image">
-                                        <img src="img/about.jpg" alt="About Images">
+                                        <img src="../../public/img/about.jpg" alt="About Images">
                                     </div>
                                 </div>
                             </div>
@@ -213,7 +188,7 @@
                                 <!-- Team Member -->
                                 <div class="team-member box-area">
                                     <!-- Image -->
-                                    <img class="img-responsive" src="img/team1.jpg" alt="">
+                                    <img class="img-responsive" src="../../public/img/team1.jpg" alt="">
                                     <!-- Name -->
                                     <h4>Johne Doe</h4>
                                     <span class="deg">Creative</span>
@@ -223,7 +198,7 @@
                                 <!-- Team Member -->
                                 <div class="team-member box-area">
                                     <!-- Image -->
-                                    <img class="img-responsive" src="img/team2.jpg" alt="">
+                                    <img class="img-responsive" src="../../public/img/team2.jpg" alt="">
                                     <!-- Name -->
                                     <h4>Jennifer</h4>
                                     <span class="deg">Programmer</span>
@@ -233,7 +208,7 @@
                                 <!-- Team Member -->
                                 <div class="team-member box-area">
                                     <!-- Image -->
-                                    <img class="img-responsive" src="img/team3.jpg" alt="">
+                                    <img class="img-responsive" src="../../public/img/team3.jpg" alt="">
                                     <!-- Name -->
                                     <h4>Christean</h4>
                                     <span class="deg">CEO</span>
@@ -243,7 +218,7 @@
                                 <!-- Team Member -->
                                 <div class="team-member box-area">
                                     <!-- Image -->
-                                    <img class="img-responsive" src="img/team4.jpg" alt="">
+                                    <img class="img-responsive" src="../../public/img/team4.jpg" alt="">
                                     <!-- Name -->
                                     <h4>Kerinele rase</h4>
                                     <span class="deg">Manager</span>
@@ -263,28 +238,7 @@
 
             </div>
         </section>
-        <!-- start footer -->
-	<?php include_once("footer.html") ?>
-	<!-- end footer -->
-</div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<!-- javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script> 
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/animate.js"></script>
-<!-- Vendor Scripts -->
-<script src="js/modernizr.custom.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/custom.js"></script>
-
-
-</body>
-</html>
+      
+<?php $content = ob_get_clean(); ?>
+<!-- Loading of our website frontend template -->
+<?php require('frontTemplate.php'); ?>

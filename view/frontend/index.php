@@ -8,20 +8,20 @@
                 <ul class="slides">
                     <li onclick="displayImage('img/slides/2.jpg')">
                    
-                        <img src="public/img/slides/2.jpg" alt="" style=" cursor:pointer"/>
+                        <img src="../../public/img/slides/2.jpg" alt="" style=" cursor:pointer"/>
                         <div class="flex-caption">
                             <h3>Maisons</h3>
                         </div>
                     </li>
                     <li onclick="displayImage('img/slides/1.jpg')" style=" cursor:pointer">
-                        <img src="public/img/slides/1.jpg" alt="" />
+                        <img src="../../public/img/slides/1.jpg" alt="" />
                         <div class="flex-caption">
                             <h3>Appartements Meublés</h3>
 
                         </div>
                     </li>
                     <li onclick="displayImage('img/slides/1.jpg')" style=" cursor:pointer">
-                        <img src="public/img/slides/1.jpg" alt="" />
+                        <img src="../../public/img/slides/1.jpg" alt="" />
                         <div class="flex-caption">
                             <h3>Terrain</h3>
 
@@ -85,22 +85,22 @@
                     </div>
                     <div class="row service-v1 margin-bottom-40">
                         <div class="col-sm-3 md-margin-bottom-40">
-                            <img class="img-responsive" src="public/img/img1.jpg" alt="">
+                            <img class="img-responsive" src="../../public/img/img1.jpg" alt="">
                             <h3>Apartments</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                         </div>
                         <div class="col-sm-3 md-margin-bottom-40">
-                            <img class="img-responsive" src="public/img/img2.jpg" alt="">
+                            <img class="img-responsive" src="../../public/img/img2.jpg" alt="">
                             <h3>luxury Villas</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                         </div>
                         <div class="col-sm-3 md-margin-bottom-40">
-                            <img class="img-responsive" src="public/img/img3.jpg" alt="">
+                            <img class="img-responsive" src="../../public/img/img3.jpg" alt="">
                             <h3>Gated Projects</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                         </div>
                         <div class="col-sm-3 md-margin-bottom-40">
-                            <img class="img-responsive" src="public/img/img4.jpg" alt="">
+                            <img class="img-responsive" src="../../public/img/img4.jpg" alt="">
                             <h3>Apartments</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                         </div>
@@ -123,34 +123,34 @@
                 </div>
                 <div class="row service-v1 margin-bottom-40">
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="public/img/img5.jpg" alt="">
+                        <img class="img-responsive" src="../../public/img/img5.jpg" alt="">
                         <h3>Apartments</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="public/img/img6.jpg" alt="">
+                        <img class="img-responsive" src="../../public/img/img6.jpg" alt="">
                         <h3>luxury Villas</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="public/img/img7.jpg" alt="">
+                        <img class="img-responsive" src="../../public/img/img7.jpg" alt="">
                         <h3>Gated Projects</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
                 </div>
                 <div class="row service-v1 margin-bottom-40">
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="public/img/img8.jpg" alt="">
+                        <img class="img-responsive" src="../../public/img/img8.jpg" alt="">
                         <h3>Apartments</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="public/img/img9.jpg" alt="">
+                        <img class="img-responsive" src="../../public/img/img9.jpg" alt="">
                         <h3>luxury Villas</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="public/img/img10.jpg" alt="">
+                        <img class="img-responsive" src="../../public/img/img10.jpg" alt="">
                         <h3>Gated Projects</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
@@ -184,7 +184,7 @@
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <div class="about-image">
-                            <img src="public/img/about.jpg" alt="About Images">
+                            <img src="../../public/img/about.jpg" alt="About Images">
                         </div>
                     </div>
                 </div>

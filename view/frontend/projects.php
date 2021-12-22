@@ -1,32 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Locagite - Ventes</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="http://webthemez.com" />
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet"> 
-<link href="css/flexslider.css" rel="stylesheet" />
-<!-- Vendor Styles -->
-<link href="css/magnific-popup.css" rel="stylesheet"> 
-<!-- Block Styles -->
-<link href="css/style.css" rel="stylesheet" />
-<link href="css/gallery-1.css" rel="stylesheet">
- 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
-</head>
-<body>
-<div id="wrapper">
-	<!-- start header -->
-	<?php include_once("header.html") ?>
-    <!-- end header -->
+<?php $title = 'Locagite - Pqge'; ?>
+<?php ob_start(); ?>
+
 	<section id="inner-headline">
 	<div class="container">
 		<div class="row">
@@ -72,9 +47,9 @@
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper apartments villas">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
-                                <img src="img/works/1.jpg" class="img-responsive" alt="1st gallery Thumb">
+                                <img src="../../public/img/works/1.jpg" class="img-responsive" alt="1st gallery Thumb">
                                 <div class="image-overlay"></div>
-                                <a href="img/works/1.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="../../public/img/works/1.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
                             </div>
                             <div class="gallery-details">
@@ -91,9 +66,9 @@
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper commercial gated">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
-                                <img src="img/works/2.jpg" class="img-responsive" alt="2nd gallery Thumb">
+                                <img src="../../public/img/works/2.jpg" class="img-responsive" alt="2nd gallery Thumb">
                                 <div class="image-overlay"></div>
-                                <a href="img/works/2.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="../../public/img/works/2.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
                             </div>
                             <div class="gallery-details">
@@ -110,9 +85,9 @@
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper housing apartments">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
-                                <img src="img/works/3.jpg" class="img-responsive" alt="3rd gallery Thumb">
+                                <img src="../../public/img/works/3.jpg" class="img-responsive" alt="3rd gallery Thumb">
                                 <div class="image-overlay"></div>
-                                <a href="img/works/3.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="../../public/img/works/3.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
                             </div>
                             <div class="gallery-details">
@@ -129,9 +104,9 @@
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper villas commercial">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
-                                <img src="img/works/4.jpg" class="img-responsive" alt="4th gallery Thumb">
+                                <img src="../../public/img/works/4.jpg" class="img-responsive" alt="4th gallery Thumb">
                                 <div class="image-overlay"></div>
-                                <a href="img/works/4.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="../../public/img/works/4.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
                             </div>
                             <div class="gallery-details">
@@ -148,9 +123,9 @@
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper commercial">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
-                                <img src="img/works/5.jpg" class="img-responsive" alt="5th gallery Thumb">
+                                <img src="../../public/img/works/5.jpg" class="img-responsive" alt="5th gallery Thumb">
                                 <div class="image-overlay"></div>
-                                <a href="img/works/5.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="../../public/img/works/5.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
                             </div>
                             <div class="gallery-details">
@@ -167,9 +142,9 @@
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper apartments villas">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
-                                <img src="img/works/6.jpg" class="img-responsive" alt="6th gallery Thumb">
+                                <img src="../../public/img/works/6.jpg" class="img-responsive" alt="6th gallery Thumb">
                                 <div class="image-overlay"></div>
-                                <a href="img/works/6.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="../../public/img/works/6.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
                             </div>
                             <div class="gallery-details">
@@ -190,28 +165,7 @@
         <!-- /.container -->
 		</div>
     </section>
-    <!--// End Gallery 1-2 -->  
-	</div>
-	<!-- start footer -->
-	<?php include_once("footer.html") ?>
-	<!-- end footer -->
-</div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<!-- javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>  
-<script src="js/jquery.flexslider.js"></script>
-<!-- Vendor Scripts -->
-<script src="js/modernizr.custom.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/custom.js"></script>
- 
-</body>
-</html>
+         
+<?php $content = ob_get_clean(); ?>
+<!-- Loading of our website frontend template -->
+<?php require('frontTemplate.php'); ?>
