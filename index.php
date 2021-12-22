@@ -8,10 +8,10 @@
     <meta name="description" content="" />
     <meta name="author" content="http://webthemez.com" />
     <!-- css -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-    <link href="css/flexslider.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="public/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="public/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="public/css/flexslider.css" rel="stylesheet" />
+    <link href="public/css/style.css" rel="stylesheet" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -24,7 +24,7 @@
     <div id="wrapper" class="home-page">
        
         <!-- start header -->
-       <?php include_once("header.html") ?>
+       <?php include_once("view/frontend/header.html") ?>
         <!-- end header -->
         <section id="banner">
 
@@ -33,21 +33,21 @@
                 <ul class="slides">
                     <li onclick="displayImage('img/slides/2.jpg')">
                    
-                        <img src="img/slides/2.jpg" alt="" style=" cursor:pointer"/>
+                        <img src="public/img/slides/2.jpg" alt="" style=" cursor:pointer"/>
                         <div class="flex-caption">
                             <h3>Maisons</h3>
 
                         </div>
                     </li>
                     <li onclick="displayImage('img/slides/1.jpg')" style=" cursor:pointer">
-                        <img src="img/slides/1.jpg" alt="" />
+                        <img src="public/img/slides/1.jpg" alt="" />
                         <div class="flex-caption">
                             <h3>Appartements Meublés</h3>
 
                         </div>
                     </li>
                     <li onclick="displayImage('img/slides/1.jpg')" style=" cursor:pointer">
-                        <img src="img/slides/1.jpg" alt="" />
+                        <img src="public/img/slides/1.jpg" alt="" />
                         <div class="flex-caption">
                             <h3>Terrain</h3>
 
@@ -111,22 +111,22 @@
                     </div>
                     <div class="row service-v1 margin-bottom-40">
                         <div class="col-sm-3 md-margin-bottom-40">
-                            <img class="img-responsive" src="img/img1.jpg" alt="">
+                            <img class="img-responsive" src="public/img/img1.jpg" alt="">
                             <h3>Apartments</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                         </div>
                         <div class="col-sm-3 md-margin-bottom-40">
-                            <img class="img-responsive" src="img/img2.jpg" alt="">
+                            <img class="img-responsive" src="public/img/img2.jpg" alt="">
                             <h3>luxury Villas</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                         </div>
                         <div class="col-sm-3 md-margin-bottom-40">
-                            <img class="img-responsive" src="img/img3.jpg" alt="">
+                            <img class="img-responsive" src="public/img/img3.jpg" alt="">
                             <h3>Gated Projects</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                         </div>
                         <div class="col-sm-3 md-margin-bottom-40">
-                            <img class="img-responsive" src="img/img4.jpg" alt="">
+                            <img class="img-responsive" src="public/img/img4.jpg" alt="">
                             <h3>Apartments</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                         </div>
@@ -149,34 +149,34 @@
                 </div>
                 <div class="row service-v1 margin-bottom-40">
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="img/img5.jpg" alt="">
+                        <img class="img-responsive" src="public/img/img5.jpg" alt="">
                         <h3>Apartments</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="img/img6.jpg" alt="">
+                        <img class="img-responsive" src="public/img/img6.jpg" alt="">
                         <h3>luxury Villas</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="img/img7.jpg" alt="">
+                        <img class="img-responsive" src="public/img/img7.jpg" alt="">
                         <h3>Gated Projects</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
                 </div>
                 <div class="row service-v1 margin-bottom-40">
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="img/img8.jpg" alt="">
+                        <img class="img-responsive" src="public/img/img8.jpg" alt="">
                         <h3>Apartments</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="img/img9.jpg" alt="">
+                        <img class="img-responsive" src="public/img/img9.jpg" alt="">
                         <h3>luxury Villas</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
                     <div class="col-sm-4 md-margin-bottom-40">
-                        <img class="img-responsive" src="img/img10.jpg" alt="">
+                        <img class="img-responsive" src="public/img/img10.jpg" alt="">
                         <h3>Gated Projects</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
                     </div>
@@ -210,7 +210,7 @@
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <div class="about-image">
-                            <img src="img/about.jpg" alt="About Images">
+                            <img src="public/img/about.jpg" alt="About Images">
                         </div>
                     </div>
                 </div>
@@ -221,26 +221,26 @@
 
 
 <!-- start footer -->
-<?php include_once("footer.html") ?>
+<?php include_once("view/frontend/footer.html") ?>
  <!-- end footer -->
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>  
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/animate.js"></script>
+<script src="public/js/jquery.js"></script>
+<script src="public/js/jquery.easing.1.3.js"></script>
+<script src="public/js/bootstrap.min.js"></script>
+<script src="public/js/jquery.fancybox.pack.js"></script>
+<script src="public/js/jquery.fancybox-media.js"></script>  
+<script src="public/js/jquery.flexslider.js"></script>
+<script src="public/js/animate.js"></script>
 <!-- Vendor Scripts -->
-<script src="js/modernizr.custom.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/custom.js"></script> 
+<script src="public/js/modernizr.custom.js"></script>
+<script src="public/js/jquery.isotope.min.js"></script>
+<script src="public/js/jquery.magnific-popup.min.js"></script>
+<script src="public/js/animate.js"></script>
+<script src="public/js/custom.js"></script> 
 
 <script>
     function displayImage(params) {
