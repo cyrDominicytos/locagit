@@ -3,7 +3,7 @@
   <!--/ Form Search Star /-->
   <div class="box-collapse">
     <div class="title-box-d">
-      <h3 class="title-d">Search Property</h3>
+      <h3 class="title-d">Recherche</h3>
     </div>
     <span class="close-box-collapse right-boxed bi bi-x"></span>
     <div class="box-collapse-wrap form">
@@ -11,7 +11,7 @@
         <div class="row">
           <div class="col-md-12 mb-2">
             <div class="form-group">
-              <label class="pb-2" for="Type">Keyword</label>
+              <label class="pb-2" for="Type">Mots-clés</label>
               <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
             </div>
           </div>
@@ -106,28 +106,23 @@
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a class="nav-link active" href="index.php">Home</a>
+            <a class="nav-link active" href="index.php">Accueil</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="about.php">About</a>
+            <a class="nav-link " href="about.php">Notre Agence</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="property-grid.php">Property</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link " href="blog-grid.php">Blog</a>
+            <a class="nav-link " href="property-grid.php">Nos Propriétés</a>
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Avec Nous</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item " href="property-single.php">Property Single</a>
-              <a class="dropdown-item " href="blog-single.php">Blog Single</a>
-              <a class="dropdown-item " href="agents-grid.php">Agents Grid</a>
-              <a class="dropdown-item " href="agent-single.php">Agent Single</a>
+              <a class="dropdown-item " href="agents-grid.php">Nos Collaborateurs</a>
+              <a class="dropdown-item " href="agents-grid.php">Nos Partenaires</a>
+              <!-- <a class="dropdown-item " href="agent-single.php">Nos Partenaires</a> -->
             </div>
           </li>
           <li class="nav-item">

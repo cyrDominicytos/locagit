@@ -10,18 +10,18 @@
         <div class="row">
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
-              <h1 class="title-single">Our Amazing Properties</h1>
-              <span class="color-text-a">Grid Properties</span>
+              <h1 class="title-single">Nos incroyables propriétés</h1>
+              <span class="color-text-a">Propriétés disponibles</span>
             </div>
           </div>
           <div class="col-md-12 col-lg-4">
             <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="#">Home</a>
+                  <a href="#">Accueil</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                  Properties Grid
+                Propriétés disponibles
                 </li>
               </ol>
             </nav>
@@ -38,10 +38,10 @@
             <div class="grid-option">
               <form>
                 <select class="custom-select">
-                  <option selected>All</option>
-                  <option value="1">New to Old</option>
-                  <option value="2">For Rent</option>
-                  <option value="3">For Sale</option>
+                  <option selected>Tous</option>
+                  <option value="1">Plus récents aux plus anciens</option>
+                  <option value="2">A Louer</option>
+                  <option value="3">A Vendre</option>
                 </select>
               </form>
             </div>
@@ -63,7 +63,7 @@
                     <div class="price-box d-flex">
                       <span class="price-a">rent | $ 12.000</span>
                     </div>
-                    <a href="property-single.html" class="link-a">Click here to view
+                    <a href="property-single.php" class="link-a">Click here to view
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
@@ -110,7 +110,7 @@
                     <div class="price-box d-flex">
                       <span class="price-a">rent | $ 12.000</span>
                     </div>
-                    <a href="property-single.html" class="link-a">Click here to view
+                    <a href="property-single.php" class="link-a">Click here to view
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
@@ -157,7 +157,7 @@
                     <div class="price-box d-flex">
                       <span class="price-a">rent | $ 12.000</span>
                     </div>
-                    <a href="property-single.html" class="link-a">Click here to view
+                    <a href="property-single.php" class="link-a">Click here to view
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
@@ -204,7 +204,7 @@
                     <div class="price-box d-flex">
                       <span class="price-a">rent | $ 12.000</span>
                     </div>
-                    <a href="property-single.html" class="link-a">Click here to view
+                    <a href="property-single.php" class="link-a">Click here to view
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
@@ -251,7 +251,7 @@
                     <div class="price-box d-flex">
                       <span class="price-a">rent | $ 12.000</span>
                     </div>
-                    <a href="property-single.html" class="link-a">Click here to view
+                    <a href="property-single.php" class="link-a">Click here to view
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
@@ -298,7 +298,7 @@
                     <div class="price-box d-flex">
                       <span class="price-a">rent | $ 12.000</span>
                     </div>
-                    <a href="property-single.html" class="link-a">Click here to view
+                    <a href="property-single.php" class="link-a">Click here to view
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>

@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
-              <h1 class="title-single">Contact US</h1>
+              <h1 class="title-single">Nous Contacter</h1>
               <span class="color-text-a">Aut voluptas consequatur unde sed omnis ex placeat quis eos. Aut natus officia corrupti qui autem fugit consectetur quo. Et ipsum eveniet laboriosam voluptas beatae possimus qui ducimus. Et voluptatem deleniti. Voluptatum voluptatibus amet. Et esse sed omnis inventore hic culpa.</span>
             </div>
           </div>
@@ -18,7 +18,7 @@
             <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="index.html">Home</a>
+                  <a href="index.php">Accueil</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
                   Contact
@@ -75,7 +75,7 @@
                     </div>
 
                     <div class="col-md-12 text-center">
-                      <button type="submit" class="btn btn-a">Send Message</button>
+                      <button type="submit" class="btn btn-a"> Envoyer</button>
                     </div>
                   </div>
                 </form>
@@ -87,7 +87,7 @@
                   </div>
                   <div class="icon-box-content table-cell">
                     <div class="icon-box-title">
-                      <h4 class="icon-title">Say Hello</h4>
+                      <h4 class="icon-title">Adresse electronique</h4>
                     </div>
                     <div class="icon-box-content">
                       <p class="mb-1">Email.
@@ -105,7 +105,7 @@
                   </div>
                   <div class="icon-box-content table-cell">
                     <div class="icon-box-title">
-                      <h4 class="icon-title">Find us in</h4>
+                      <h4 class="icon-title">Nous visiter</h4>
                     </div>
                     <div class="icon-box-content">
                       <p class="mb-1">
@@ -121,7 +121,7 @@
                   </div>
                   <div class="icon-box-content table-cell">
                     <div class="icon-box-title">
-                      <h4 class="icon-title">Social networks</h4>
+                      <h4 class="icon-title">Nos réseaux sociaux</h4>
                     </div>
                     <div class="icon-box-content">
                       <div class="socials-footer">

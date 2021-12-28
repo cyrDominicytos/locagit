@@ -18,10 +18,10 @@
                         <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
-                                    <a href="index.html">Home</a>
+                                    <a href="index.php">Accueil</a>
                                 </li>
                                 <li class="breadcrumb-item">
-                                    <a href="property-grid.html">Properties</a>
+                                    <a href="property-grid.php">Properties</a>
                                 </li>
                                 <li class="breadcrumb-item active" aria-current="page">
                                     304 Blaster Up
