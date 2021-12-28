@@ -1,5 +1,6 @@
 
-<?php $title = 'Locagite - A propos de nous'; ?>
+<?php $title = 'Locagite - Nos Collaborateurs'; ?>
+<?php $page = 4; ?>
 <?php ob_start(); ?>
 
   <main id="main">
@@ -17,7 +18,7 @@
             <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="#">Home</a>
+                  <a href="#">Accueil</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
                   Agents Grid

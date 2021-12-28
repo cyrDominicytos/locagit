@@ -106,19 +106,19 @@
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a class="nav-link active" href="index.php">Accueil</a>
+            <a class="nav-link <?= isset($page) ? ($page==1 ? 'active' : '') : ('') ?>" href="index.php">Accueil</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="about.php">Notre Agence</a>
+            <a class="nav-link <?= isset($page) ? ($page==2 ? 'active' : '') : ('') ?>" href="about.php">Notre Agence</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="property-grid.php">Nos Propriétés</a>
+            <a class="nav-link <?= isset($page) ? ($page==3 ? 'active' : '') : ('') ?>" href="property-grid.php">Nos Propriétés</a>
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Avec Nous</a>
+            <a class="nav-link dropdown-toggle <?= isset($page) ? ($page==4 ? 'active' : '') : ('') ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Avec Nous</a>
             <div class="dropdown-menu">
               <a class="dropdown-item " href="agents-grid.php">Nos Collaborateurs</a>
               <a class="dropdown-item " href="agents-grid.php">Nos Partenaires</a>
@@ -126,7 +126,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="contact.php">Contact</a>
+            <a class="nav-link <?= isset($page) ? ($page==5 ? 'active' : '') : ('') ?>" href="contact.php">Contact</a>
           </li>
         </ul>
       </div>

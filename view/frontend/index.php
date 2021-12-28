@@ -1,4 +1,5 @@
 <?php $title = 'Locagite - Accueil'; ?>
+<?php $page = 1; ?>
 <?php ob_start(); ?>
 
   <!-- ======= Intro Section ======= -->

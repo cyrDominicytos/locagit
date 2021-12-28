@@ -1,5 +1,6 @@
 
-<?php $title = 'Locagite - A propos de nous'; ?>
+<?php $title = 'Locagite - Nos Propriétés'; ?>
+<?php $page = 3; ?>
 <?php ob_start(); ?>
 
   <main id="main">

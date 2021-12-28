@@ -1,5 +1,6 @@
 
 <?php $title = 'Locagite - Nous contacter'; ?>
+<?php $page = 5; ?>
 <?php ob_start(); ?>
 
   <main id="main">
