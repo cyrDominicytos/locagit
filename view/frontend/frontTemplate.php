@@ -50,11 +50,7 @@
 
   <!-- Template Main JS File -->
   <script src="../../public/frontend/assets/js/main.js"></script>
-    <script>
-        function displayImage(params) {
-            window.open(params);
-        }
-    </script>
+    
 </body>
 
 </html>

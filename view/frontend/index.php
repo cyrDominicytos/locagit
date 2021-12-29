@@ -7,7 +7,7 @@
 
     <div class="swiper-wrapper">
 
-      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(../../public/frontend/assets/img/slide-1.jpg)">
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(../../public/frontend/assets/img/slide-1.jpg)" onclick="window.open('../../public/frontend/assets/img/slide-1.jpg','_self');">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -32,7 +32,7 @@
           </div>
         </div>
       </div>
-      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(../../public/frontend/assets/img/slide-2.jpg)">
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(../../public/frontend/assets/img/slide-2.jpg)" onclick="window.open('../../public/frontend/assets/img/slide-2.jpg','_self');">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -57,7 +57,7 @@
           </div>
         </div>
       </div>
-      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(../../public/frontend/assets/img/slide-3.jpg)">
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(../../public/frontend/assets/img/slide-3.jpg)" onclick="window.open('../../public/frontend/assets/img/slide-3.jpg','_self');">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
