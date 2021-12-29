@@ -4,7 +4,6 @@
 <?php ob_start(); ?>
 
 <main id="main">
-
 <!-- ======= Intro Single ======= -->
 <section class="intro-single">
     <div class="container">

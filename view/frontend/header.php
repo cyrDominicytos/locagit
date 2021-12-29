@@ -19,18 +19,17 @@
             <div class="form-group mt-3">
               <label class="pb-2" for="Type">Type</label>
               <select class="form-control form-select form-control-a" id="Type">
-                <option>All Type</option>
-                <option>For Rent</option>
-                <option>For Sale</option>
-                <option>Open House</option>
+                <option>Tous</option>
+                <option>A Louer</option>
+                <option>A Vendre</option>
               </select>
             </div>
           </div>
           <div class="col-md-6 mb-2">
             <div class="form-group mt-3">
-              <label class="pb-2" for="city">City</label>
+              <label class="pb-2" for="city">Ville</label>
               <select class="form-control form-select form-control-a" id="city">
-                <option>All City</option>
+                <option>Tous</option>
                 <option>Alabama</option>
                 <option>Arizona</option>
                 <option>California</option>
@@ -40,9 +39,9 @@
           </div>
           <div class="col-md-6 mb-2">
             <div class="form-group mt-3">
-              <label class="pb-2" for="bedrooms">Bedrooms</label>
+              <label class="pb-2" for="bedrooms">Chambre A coucher</label>
               <select class="form-control form-select form-control-a" id="bedrooms">
-                <option>Any</option>
+                <option>Tous</option>
                 <option>01</option>
                 <option>02</option>
                 <option>03</option>
@@ -53,7 +52,7 @@
             <div class="form-group mt-3">
               <label class="pb-2" for="garages">Garages</label>
               <select class="form-control form-select form-control-a" id="garages">
-                <option>Any</option>
+                <option>Tous</option>
                 <option>01</option>
                 <option>02</option>
                 <option>03</option>
@@ -63,9 +62,9 @@
           </div>
           <div class="col-md-6 mb-2">
             <div class="form-group mt-3">
-              <label class="pb-2" for="bathrooms">Bathrooms</label>
+              <label class="pb-2" for="bathrooms">Douche</label>
               <select class="form-control form-select form-control-a" id="bathrooms">
-                <option>Any</option>
+                <option>Tous</option>
                 <option>01</option>
                 <option>02</option>
                 <option>03</option>
@@ -74,9 +73,9 @@
           </div>
           <div class="col-md-6 mb-2">
             <div class="form-group mt-3">
-              <label class="pb-2" for="price">Min Price</label>
+              <label class="pb-2" for="price">Prix Min</label>
               <select class="form-control form-select form-control-a" id="price">
-                <option>Unlimite</option>
+                <option>illimité</option>
                 <option>$50,000</option>
                 <option>$100,000</option>
                 <option>$150,000</option>
@@ -85,7 +84,7 @@
             </div>
           </div>
           <div class="col-md-12">
-            <button type="submit" class="btn btn-b">Search Property</button>
+            <button type="submit" class="btn btn-b">Rechercher</button>
           </div>
         </div>
       </form>
