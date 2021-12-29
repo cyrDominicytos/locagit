@@ -11,17 +11,17 @@
     <div class="row">
         <div class="col-md-12 col-lg-8">
         <div class="title-single-box">
-            <h1 class="title-single">We Do Great Design For Creative Folks</h1>
+            <h1 class="title-single">Nous vous aidons à trouver le logement adéquat</h1>
         </div>
         </div>
         <div class="col-md-12 col-lg-4">
         <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
             <ol class="breadcrumb">
             <li class="breadcrumb-item">
-                <a href="#">Home</a>
+                <a href="#">Accueil</a>
             </li>
             <li class="breadcrumb-item active" aria-current="page">
-                About
+                Notre Agence
             </li>
             </ol>
         </nav>
@@ -53,14 +53,13 @@
             </div>
             <div class="col-lg-2  d-none d-lg-block position-relative">
             <div class="title-vertical d-flex justify-content-start">
-                <span>EstateAgency Exclusive Property</span>
+                <span>Locagite</span>
             </div>
             </div>
             <div class="col-md-6 col-lg-5 section-md-t3">
             <div class="title-box-d">
-                <h3 class="title-d">Sed
-                <span class="color-d">porttitor</span> lectus
-                <br> nibh.
+                <h3 class="title-d">Qui sommes-nous ?
+                
                 </h3>
             </div>
             <p class="color-text-a">
@@ -90,7 +89,7 @@
         <div class="col-md-12">
         <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-            <h2 class="title-a">Meet Our Team</h2>
+            <h2 class="title-a">Notre Equipe</h2>
             </div>
         </div>
         </div>
