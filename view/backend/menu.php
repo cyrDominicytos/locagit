@@ -47,7 +47,7 @@
                             <h4 class="text-section">Fonctionnalités</h4>
                         </li>
                         <li class="nav-item">
-                            <a href="#" >
+                            <a href="immobiliers.php" >
                                 <i class="fas fa-layer-group"></i>
                                 <p>Gérer les propriétés</p>
                                 <span class="badge badge-success">0</span>
