@@ -62,7 +62,7 @@
                 </h3>
             </div>
             <p class="color-text-a">
-                Nous sommes une equipe de jeunes agents immobiliers très dynamique dont la seule passion est de vous aider à trouver le logement de vos reves.
+                Nous sommes une equipe de jeunes agents immobiliers très dynamique dont la seule passion est de vous aider à trouver le logement de vos rêves.
             </p>
             <p class="color-text-a">
                Avec nous, vous disposez des meilleures offres et bénéficiez des conseils aussi bien dans le domaine financier que juridique. 
