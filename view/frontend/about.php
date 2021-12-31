@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-md-12 col-lg-8">
         <div class="title-single-box">
-            <h1 class="title-single">Nous vous aidons à trouver le logement de vos reves</h1>
+            <h1 class="title-single">Nous vous aidons à trouver le logement de vos rêves</h1>
         </div>
         </div>
         <div class="col-md-12 col-lg-4">
@@ -62,10 +62,10 @@
                 </h3>
             </div>
             <p class="color-text-a">
-                Nous sommes une equipe de jeunes agents immobiliers tres dynamique dont la passion est de vous aider a trouver le logement de vos reves.
+                Nous sommes une equipe de jeunes agents immobiliers très dynamique dont la seule passion est de vous aider à trouver le logement de vos reves.
             </p>
             <p class="color-text-a">
-               Avec nous, vous disposez des meilleures offres et beneficiez des conseils aussi bien dans le domaine financiers que juridiques. 
+               Avec nous, vous disposez des meilleures offres et bénéficiez des conseils aussi bien dans le domaine financier que juridique. 
             </p>
             </div>
         </div>
