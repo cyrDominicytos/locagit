@@ -21,7 +21,7 @@
                   <span class="color-text-a">Phone .</span> (123) 456-789 - 1255-12584 
                 </li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span> email@domainname.com
+                  <span class="color-text-a">Email .</span> admin@locagite.com
                 </li>
               </ul>
             </div>

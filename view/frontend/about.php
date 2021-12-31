@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-md-12 col-lg-8">
         <div class="title-single-box">
-            <h1 class="title-single">Nous vous aidons à trouver le logement adéquat</h1>
+            <h1 class="title-single">Nous vous aidons à trouver le logement de vos reves</h1>
         </div>
         </div>
         <div class="col-md-12 col-lg-4">
@@ -38,11 +38,11 @@
             <img src="../../public/frontend/assets/img/slide-about-1.jpg" alt="" class="img-fluid">
         </div>
         <div class="sinse-box">
-            <h3 class="sinse-title">EstateAgency
+            <h3 class="sinse-title">LocaGite
             <span></span>
-            <br> Sinse 2017
+            <br> Since 2021
             </h3>
-            <p>Art & Creative</p>
+            <p>Agence immobilière</p>
         </div>
         </div>
         <div class="col-md-12 section-t8 position-relative">
@@ -62,17 +62,10 @@
                 </h3>
             </div>
             <p class="color-text-a">
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget
-                consectetur sed, convallis
-                at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum
-                ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit
-                neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                Nous sommes une equipe de jeunes agents immobiliers tres dynamique dont la passion est de vous aider a trouver le logement de vos reves.
             </p>
             <p class="color-text-a">
-                Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
-                Mauris blandit aliquet
-                elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget consectetur sed,
-                convallis at tellus.
+               Avec nous, vous disposez des meilleures offres et beneficiez des conseils aussi bien dans le domaine financiers que juridiques. 
             </p>
             </div>
         </div>
@@ -104,20 +97,20 @@
                 <div class="card-title-d align-self-center">
                 <h3 class="title-d">
                     <a href="agent-single.php" class="link-two">Margaret Sotillo
-                    <br> Escala</a>
+                    <br></a>
                 </h3>
                 </div>
             </div>
             <div class="card-body-d">
                 <p class="content-d color-text-a">
-                Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                Agent immobilier
                 </p>
                 <div class="info-agents color-a">
                 <p>
                     <strong>Phone: </strong> +54 356 945234
                 </p>
                 <p>
-                    <strong>Email: </strong> agents@example.com
+                    <strong>Email: </strong> margaret@locagite.com
                 </p>
                 </div>
             </div>
@@ -160,20 +153,20 @@
                 <div class="card-title-d align-self-center">
                 <h3 class="title-d">
                     <a href="agent-single.php" class="link-two">Stiven Spilver
-                    <br> Darw</a>
+                    <br></a>
                 </h3>
                 </div>
             </div>
             <div class="card-body-d">
                 <p class="content-d color-text-a">
-                Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+               Agent immobilier
                 </p>
                 <div class="info-agents color-a">
                 <p>
                     <strong>Phone: </strong> +54 356 945234
                 </p>
                 <p>
-                    <strong>Email: </strong> agents@example.com
+                    <strong>Email: </strong> steeve@locagite.com
                 </p>
                 </div>
             </div>
@@ -221,20 +214,20 @@
                 <div class="card-title-d align-self-center">
                 <h3 class="title-d">
                     <a href="agent-single.php" class="link-two">Emma Toledo
-                    <br> Cascada</a>
+                    <br> </a>
                 </h3>
                 </div>
             </div>
             <div class="card-body-d">
                 <p class="content-d color-text-a">
-                Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                Agent immobilier
                 </p>
                 <div class="info-agents color-a">
                 <p>
                     <strong>Phone: </strong> +54 356 945234
                 </p>
                 <p>
-                    <strong>Email: </strong> agents@example.com
+                    <strong>Email: </strong> emma@locagite.com
                 </p>
                 </div>
             </div>
