@@ -56,6 +56,13 @@
                         <li class="nav-item">
                             <a href="#">
                                 <i class="fas fa-th-list"></i>
+                                <p>Gérer les types de bien</p>
+                                <span class="badge badge-success">0</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fas fa-th-list"></i>
                                 <p>Gérer les postes</p>
                                 <span class="badge badge-success">0</span>
                             </a>

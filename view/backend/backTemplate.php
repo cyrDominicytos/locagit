@@ -27,6 +27,9 @@
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link rel="stylesheet" href="../../public/backend/assets/css/demo.css">
+
+  	<!-- CSS customisation -->
+	<link rel="stylesheet" href="../../public/backend/assets/css/customiser.css">
 </head>
 <body>
   <div class="wrapper">

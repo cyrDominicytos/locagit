@@ -141,7 +141,7 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="card-head-row card-tools-still-right">
-                            <h4 class="card-title">Point Mensuel des biens créés</h4>
+                            <h4 class="card-title">Point Mensuel des interactions des visiteurs</h4>
                             <div class="card-tools">
                                 <button class="btn btn-icon btn-link btn-primary btn-xs"><span class="fa fa-angle-down"></span></button>
                                 <button class="btn btn-icon btn-link btn-primary btn-xs btn-refresh-card"><span class="fa fa-sync-alt"></span></button>
@@ -149,7 +149,7 @@
                             </div>
                         </div>
                         <p class="card-category">
-                        Nombre de biens créés par mois</p>
+                        Nombre d'interactions sur les biens mis en vente ou en location par mois</p>
                     </div>
                     <div class="card-body">
                         <div class="row">

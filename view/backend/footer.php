@@ -5,7 +5,7 @@
                            
                             <li class="nav-item">
                                 <a class="nav-link" href="mailto:caroaguedegan@gmail.com" >
-									L'équipe de dévellopeur
+									Contacter l'équipe de dévellopeur
 								</a>
                             </li>
                         </ul>
