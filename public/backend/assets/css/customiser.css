@@ -2,3 +2,12 @@
     background-color: rgba(0, 0, 255, 0.7);
     color: white;
 }
+
+.form-bg {
+    background: rgba(20, 20, 200, 0.1);
+}
+
+.form-bg label {
+    color: #6861ce;
+    /* color: #1572e8!important; */
+}

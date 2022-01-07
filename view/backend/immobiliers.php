@@ -52,13 +52,13 @@
 									<div class="modal fade" id="addRowModal" tabindex="-1" role="dialog" aria-hidden="true">
 										<div class="modal-dialog" role="document">
 											<form action="" method="post" id="mdForm">
-												@csrf
+												
 												<input id="update_id" name="id"   type="number" hidden >
 
 												<div class="modal-content">
 													<div class="modal-header no-bd card-header">
 														<h5 class="modal-title">
-															<span class="fw-mediumbold ">
+															<span class="fw-mediumbold">
 															Création d'une propriété</span> 
 															
 														</h5>
@@ -68,7 +68,7 @@
 													</div>
 													<div class="modal-body">
 														<p class="small mdTitle">Remplissez les champs afin de créer une nouvelle propriété</p>
-														
+														<!-- Modal content -->
 															<div class="row">
 																<div class="col-md-12">
                                                                     <ul class="nav nav-pills nav-secondary nav-pills-no-bd" id="pills-tab-without-border" role="tablist">
@@ -81,7 +81,7 @@
                                                                     </ul>
 
                                                                     <div class="tab-content mt-2 mb-3 " id="pills-without-border-tabContent">
-                                                                        <div class="tab-pane fade show active" style="border: 1px solid black" id="pills-home-nobd" role="tabpanel" aria-labelledby="pills-home-tab-nobd">
+                                                                        <div class="tab-pane fade show active form-bg"  id="pills-home-nobd" role="tabpanel" aria-labelledby="pills-home-tab-nobd">
                                                                             <div class="row">
                                                                             <div class="col-md-6">
                                                                                 <div class="form-group ">
@@ -92,48 +92,94 @@
                                                                             <div class="col-sm-6">
                                                                                 <div class="form-group">
                                                                                     <label>Type *</label>
-                                                                                    <select class="form-control input-fixed" id="notify_state">
-                                                                                        <option value="default">Chambres</option>
-                                                                                        <option value="primary">Maison</option>
-                                                                                        <option value="secondary">Secondary</option>
-                                                                                        <option value="info">Info</option>
-                                                                                        <option value="success">Success</option>
-                                                                                        <option value="warning">Warning</option>
-                                                                                        <option value="danger">Danger</option>
+                                                                                    <select class="form-control input-fixed" id="type" name="type" required>
+                                                                                        <option value="0" disabled>Selectionnez...</option>
+                                                                                                                                                                             
                                                                                     </select>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-md-6">
                                                                                 <div class="form-group">
-                                                                                    <label>Tel</label>
-                                                                                    <input id="tel" type="tel" name="phoneNumber" class="form-control" placeholder="66666666" max="20" >
+                                                                                    <label>Code postal*</label>
+                                                                                    <input id="codePostal" type="number" name="codePostal" class="form-control" placeholder="354856" max="99999999" >
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-md-6">
                                                                                 <div class="form-group">
-                                                                                    <label>Email</label>
-                                                                                    <input id="email" type="email" name="email" class="form-control" placeholder="exemple@gmail.com" max="50" >
+                                                                                    <label>Ville*</label>
+                                                                                    <select class="form-control input-fixed" id="ville" name="ville" required>
+                                                                                            <option value="0" disabled>Selectionnez...</option>                                                                                        
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-md-6">
+                                                                                <div class="form-group">
+                                                                                    <label>Chambre à coucher*</label>
+                                                                                    <input id="chambre" type="number" name="chambre" class="form-control" placeholder="2" max="50" >
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-6">
+                                                                                <div class="form-group">
+                                                                                    <label>Douche*</label>
+                                                                                    <input id="douche" type="number" name="douche" class="form-control" placeholder="2" max="20" >
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-6">
+                                                                                <div class="form-group">
+                                                                                    <label>Dimension (m<sup>2</sup>)*</label>
+                                                                                    <input id="dimension" type="number" name="dimension" class="form-control" placeholder="300" max="9999999" >
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-6">
+                                                                                <div class="form-group">
+                                                                                    <label>Garage</label>
+                                                                                    <input id="chambre" type="number" name="chambre" class="form-control" placeholder="2" max="50" >
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-md-12">
+                                                                                <div class="row item-center" style="display: block; margin-left: auto; margin-right: auto; width: 60%;">
+                                                                                    <div class="checkbox" style="display: inline-block; padding: 1rem 1rem; vertical-align: middle;"><label class="unselectable"><input id="estEnVente" type="checkbox" > A vendre</label></div>
+                                                                                    <div class="checkbox" style="display: inline-block; padding: 1rem 1rem; vertical-align: middle;"><label class="unselectable"><input id="estEnLocation" type="checkbox" checked=""> A louer</label></div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-6">
                                                                                 <div class="form-group">
-                                                                                    <label>Adresse</label>
-                                                                                    <input id="address" type="text"  name="address" class="form-control" placeholder="Midombo-Akpakpa" max="50" >
+                                                                                    <label>Prix de vente (€)*</label>
+                                                                                    <input id="prixVente" type="number" name="prixVente" class="form-control" placeholder="35000" min="0" max="99999999" >
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-6">
+                                                                                <div class="form-group">
+                                                                                    <label>Prix de location (€)*</label>
+                                                                                    <input id="prixLocation" type="number" name="prixLocation" class="form-control" placeholder="400" min="0" max="99999999" >
+
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-md-12">
+                                                                                <div class="form-group">
+                                                                                    <label>Description</label>
+                                                                                    <textarea name="description" class="form-control" placeholder="Décrivez votre bien..."></textarea>
                                                                                 </div>
                                                                             </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="tab-pane fade" id="pills-profile-nobd" role="tabpanel" aria-labelledby="pills-profile-tab-nobd">
-                                                                            
+                                                                            <div class="col-md-12">
+                                                                                
+                                                                            </div>
                                                                         </div>
                                                                     </div>
 														        </div>
 															</div>
-														
+                
+														<!-- End Modal content -->
 													</div>
 													<div class="modal-footer no-bd">
-														<button type="submit" id="addRowButton" class="btn btn-primary">Ajouter</button>
+														<button type="button" id="addRowButton" class="btn btn-primary">Ajouter Images</button>
 														<button type="button" class="btn btn-danger" data-dismiss="modal">Quitter</button>
+                                                        <button type="submit" id="addRowButton" class="btn btn-success">Enregistrer</button>
 													</div>
 												</div>
 											</form>
@@ -208,6 +254,8 @@
 									</div>
 								</div>
 							</div>
+
+                            
 						</div>
 					</div>
 				</div>
@@ -215,6 +263,7 @@
 <?php $content = ob_get_clean(); ?>
 <!-- Loading of our website frontend template -->
 <?php require('backTemplate.php'); ?>
-  
+
+	
 
  
