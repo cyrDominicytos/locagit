@@ -1,5 +1,11 @@
 <?php $title = 'Locagite - Admin, Gérer immobiliers'; ?>
 <?php $page = 1; ?>
+<!-- specific css -->
+<?php ob_start(); ?>
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+<?php $css = ob_get_clean(); ?>
+
+
 <?php ob_start(); ?>
 
 <div class="content">
@@ -66,7 +72,7 @@
 															<span aria-hidden="true">×</span>
 														</button>
 													</div>
-													<div class="modal-body">
+													<div class="modal-body form-b">
 														<p class="small mdTitle">Remplissez les champs afin de créer une nouvelle propriété</p>
 														<!-- Modal content -->
 															<div class="row">
@@ -81,93 +87,167 @@
                                                                     </ul>
 
                                                                     <div class="tab-content mt-2 mb-3 " id="pills-without-border-tabContent">
-                                                                        <div class="tab-pane fade show active form-bg"  id="pills-home-nobd" role="tabpanel" aria-labelledby="pills-home-tab-nobd">
+                                                                        <div class="tab-pane fade show active form-b"  id="pills-home-nobd" role="tabpanel" aria-labelledby="pills-home-tab-nobd">
                                                                             <div class="row">
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group ">
-                                                                                    <label>Designation *</label>
-                                                                                    <input id="titre" name="titre"   type="text" class="form-control" placeholder="Renseignez la désignation" required max="200" >
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group form-floating-label">
+                                                                                        <input  id="titre" name="titre"   type="text"  class="form-control input-border-bottom" required max="200">
+                                                                                        <label for="titre" class="placeholder">Designation *</label>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
-                                                                            <div class="col-sm-6">
-                                                                                <div class="form-group">
-                                                                                    <label>Type *</label>
-                                                                                    <select class="form-control input-fixed" id="type" name="type" required>
-                                                                                        <option value="0" disabled>Selectionnez...</option>
-                                                                                                                                                                             
-                                                                                    </select>
+                                                                                <div class="col-sm-6">
+                                                                                    <div class="form-group form-floating-label">
+                                                                                        <select class="form-control input-border-bottom" id="type" name="type" required="">
+                                                                                            <option value="0" disabled>Selectionnez...</option>
+                                                                                        </select>
+                                                                                        <label for="type" class="placeholder">Type *</label>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group">
-                                                                                    <label>Code postal*</label>
-                                                                                    <input id="codePostal" type="number" name="codePostal" class="form-control" placeholder="354856" max="99999999" >
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group form-floating-label">
+                                                                                        <input  id="codePostal" type="number" name="codePostal"  class="form-control input-border-bottom" required max="99999999">
+                                                                                        <label for="titre" class="placeholder">Code postal*</label>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group">
-                                                                                    <label>Ville*</label>
-                                                                                    <select class="form-control input-fixed" id="ville" name="ville" required>
-                                                                                            <option value="0" disabled>Selectionnez...</option>                                                                                        
-                                                                                    </select>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group form-floating-label">
+                                                                                        <select class="form-control input-border-bottom"  id="ville" name="ville" required>
+                                                                                            <option value="0" disabled>Selectionnez...</option>
+                                                                                        </select>
+                                                                                        <label for="ville" class="placeholder">Type *</label>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
-                                                                            
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group">
-                                                                                    <label>Chambre à coucher*</label>
-                                                                                    <input id="chambre" type="number" name="chambre" class="form-control" placeholder="2" max="50" >
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group form-floating-label">
+                                                                                        <input  id="chambre" type="number" name="chambre"  class="form-control input-border-bottom" required max="50">
+                                                                                        <label for="chambre" class="placeholder">Chambre à coucher *</label>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group">
-                                                                                    <label>Douche*</label>
-                                                                                    <input id="douche" type="number" name="douche" class="form-control" placeholder="2" max="20" >
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group form-floating-label">
+                                                                                        <input id="douche" type="number" name="douche"  class="form-control input-border-bottom" required max="20" min="0">
+                                                                                        <label for="douche" class="placeholder">Douche *</label>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group">
-                                                                                    <label>Dimension (m<sup>2</sup>)*</label>
-                                                                                    <input id="dimension" type="number" name="dimension" class="form-control" placeholder="300" max="9999999" >
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group form-floating-label">
+                                                                                        <input id="dimension" type="number" name="dimension" class="form-control input-border-bottom" required max="9999999" min="0">
+                                                                                        <label for="chambre" class="placeholder">Dimension (m<sup>2</sup>)*</label>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group">
-                                                                                    <label>Garage</label>
-                                                                                    <input id="chambre" type="number" name="chambre" class="form-control" placeholder="2" max="50" >
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group form-floating-label">
+                                                                                        <input id="garage" type="number" name="garage" class="form-control input-border-bottom" required max="50" min="0">
+                                                                                        <label for="garage" class="placeholder">Garage</label>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
-                                                                            <div class="col-md-12">
-                                                                                <div class="row item-center" style="display: block; margin-left: auto; margin-right: auto; width: 60%;">
-                                                                                    <div class="checkbox" style="display: inline-block; padding: 1rem 1rem; vertical-align: middle;"><label class="unselectable"><input id="estEnVente" type="checkbox" > A vendre</label></div>
-                                                                                    <div class="checkbox" style="display: inline-block; padding: 1rem 1rem; vertical-align: middle;"><label class="unselectable"><input id="estEnLocation" type="checkbox" checked=""> A louer</label></div>
+                                                                                <div class="col-md-12">
+                                                                                    <div class="row item-center" style="display: block; margin-left: auto; margin-right: auto; width: 60%;">
+                                                                                        <div class="checkbox" style="display: inline-block; padding: 1rem 1rem; vertical-align: middle;"><label class="unselectable"><input id="estEnVente" type="checkbox" onclick="priceInput()" > A vendre</label></div>
+                                                                                        <div class="checkbox" style="display: inline-block; padding: 1rem 1rem; vertical-align: middle;"><label class="unselectable"><input id="estEnLocation" type="checkbox" onclick="priceInput()"> A louer</label></div>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group">
-                                                                                    <label>Prix de vente (€)*</label>
-                                                                                    <input id="prixVente" type="number" name="prixVente" class="form-control" placeholder="35000" min="0" max="99999999" >
+                                                                                <div class="col-md-6" id="venteParent">
+                                                                                    <div class="form-group form-floating-label">
+                                                                                        <input id="prixVente" type="number" name="prixVente" class="form-control input-border-bottom" required max="99999999" min="0">
+                                                                                        <label for="prixVente" class="placeholder">Prix de vente (€)</label>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group">
-                                                                                    <label>Prix de location (€)*</label>
-                                                                                    <input id="prixLocation" type="number" name="prixLocation" class="form-control" placeholder="400" min="0" max="99999999" >
-
+                                                                                <div class="col-md-6" id="locationParent">
+                                                                                    <div class="form-group form-floating-label">
+                                                                                        <input id="prixLocation" type="number"  name="prixLocation" class="form-control input-border-bottom" required max="99999999" min="0">
+                                                                                        <label for="prixVente" class="placeholder">Prix de location (€)</label>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
-                                                                            
-                                                                            <div class="col-md-12">
-                                                                                <div class="form-group">
-                                                                                    <label>Description</label>
-                                                                                    <textarea name="description" class="form-control" placeholder="Décrivez votre bien..."></textarea>
+                                                                                <div class="col-md-12">
+                                                                                    <div class="form-group">
+                                                                                        <label>Description</label>
+                                                                                        <textarea name="description" class="form-control" placeholder="Décrivez votre bien..."></textarea>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="tab-pane fade" id="pills-profile-nobd" role="tabpanel" aria-labelledby="pills-profile-tab-nobd">
                                                                             <div class="col-md-12">
-                                                                                
+                                                                            <div id="carouselExampleTouch" class="carousel slide" data-mdb-touch="false">
+                                                                                <div class="carousel-indicators">
+                                                                                    <button
+                                                                                    type="button"
+                                                                                    data-mdb-target="#carouselExampleTouch"
+                                                                                    data-mdb-slide-to="0"
+                                                                                    class="active"
+                                                                                    aria-current="true"
+                                                                                    aria-label="Slide 1"
+                                                                                    ></button>
+                                                                                    <button
+                                                                                    type="button"
+                                                                                    data-mdb-target="#carouselExampleTouch"
+                                                                                    data-mdb-slide-to="1"
+                                                                                    aria-label="Slide 2"
+                                                                                    ></button>
+                                                                                    <button
+                                                                                    type="button"
+                                                                                    data-mdb-target="#carouselExampleTouch"
+                                                                                    data-mdb-slide-to="2"
+                                                                                    aria-label="Slide 3"
+                                                                                    ></button>
+                                                                                </div>
+                                                                                <div class="carousel-inner">
+                                                                                    <div class="carousel-item active">
+                                                                                    <img
+                                                                                        src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+                                                                                        class="d-block w-100"
+                                                                                        alt="Wild Landscape"
+                                                                                    />
+                                                                                    <div class="carousel-caption d-none d-md-block">
+                                                                                        <h5>First slide label</h5>
+                                                                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="carousel-item">
+                                                                                    <img
+                                                                                        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+                                                                                        class="d-block w-100"
+                                                                                        alt="Camera"
+                                                                                    />
+                                                                                    <div class="carousel-caption d-none d-md-block">
+                                                                                        <h5>Second slide label</h5>
+                                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="carousel-item">
+                                                                                    <img
+                                                                                        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+                                                                                        class="d-block w-100"
+                                                                                        alt="Exotic Fruits"
+                                                                                    />
+                                                                                    <div class="carousel-caption d-none d-md-block">
+                                                                                        <h5>Third slide label</h5>
+                                                                                        <p>
+                                                                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <button
+                                                                                    class="carousel-control-prev"
+                                                                                    type="button"
+                                                                                    data-mdb-target="#carouselExampleTouch"
+                                                                                    data-mdb-slide="prev"
+                                                                                >
+                                                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                                    <span class="visually-hidden">Previous</span>
+                                                                                </button>
+                                                                                <button
+                                                                                    class="carousel-control-next"
+                                                                                    type="button"
+                                                                                    data-mdb-target="#carouselExampleTouch"
+                                                                                    data-mdb-slide="next"
+                                                                                >
+                                                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                                    <span class="visually-hidden">Next</span>
+                                                                                </button>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -261,6 +341,54 @@
 				</div>
 			</div>
 <?php $content = ob_get_clean(); ?>
+
+<!-- Js -->
+<?php ob_start(); ?>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+<script type="text/javascript">
+    function priceInput() {
+        let estEnVente =  document.getElementById("estEnVente");
+        let estEnLocation = document.getElementById("estEnLocation"); 
+        let priceClass = false;
+        if(estEnVente.checked == true){
+            document.getElementById("venteParent").style.display = "block";
+            priceClass = true;
+        }
+        else{
+            document.getElementById("venteParent").style.display = "none";
+            priceClass -= 6;
+        }
+
+        if(estEnLocation.checked == true){
+            document.getElementById("locationParent").style.display = "block";
+           if(priceClass==true){
+                document.getElementById('locationParent').className = 'col-md-6';
+                document.getElementById('venteParent').className = 'col-md-6';
+           }else{
+                document.getElementById('locationParent').className = 'col-md-12';
+                document.getElementById('venteParent').className = 'col-md-12';
+           }
+        }
+        else{
+            document.getElementById("locationParent").style.display = "none";
+            if(priceClass==true){
+                document.getElementById('locationParent').className = 'col-md-12';
+                document.getElementById('venteParent').className = 'col-md-12';
+           }else{
+                document.getElementById('locationParent').className = 'col-md-6';
+                document.getElementById('venteParent').className = 'col-md-6';
+           }
+        }
+
+      
+    }
+
+
+
+    //For datatable
+   
+</script>
+<?php $js = ob_get_clean(); ?>
 <!-- Loading of our website frontend template -->
 <?php require('backTemplate.php'); ?>
 

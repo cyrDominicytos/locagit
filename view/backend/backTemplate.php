@@ -30,6 +30,8 @@
 
   	<!-- CSS customisation -->
 	<link rel="stylesheet" href="../../public/backend/assets/css/customiser.css">
+    <!-- Specific css -->
+    <?= isset($css) ? ($css) : ("") ?>
 </head>
 <body>
   <div class="wrapper">
@@ -118,7 +120,7 @@
       </div><!-- End Custom template -->
  </div>
 
-
+ <?= isset($js) ? ($js) : ("") ?>
   <!--   Core JS Files   -->
   <script src="../../public/backend/assets/js/core/jquery.3.2.1.min.js"></script>
     <script src="../../public/backend/assets/js/core/popper.min.js"></script>
