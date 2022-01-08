@@ -12,7 +12,7 @@
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
               <h1 class="title-single">Nous Contacter</h1>
-              <span class="color-text-a">Vous voulez nous rencontrer? Nous serons heureux de vous acceuillir dans nos locaux du lundi au vendredi de 8h30-12h30 et le samedi de 9h-13h. Merci! </span>
+              <span class="color-text-a">Voulez-vous nous contacter? Nous serons heureux de vous acceuillir dans nos locaux du lundi au vendredi de 8h30-12h30 puis de 14h-17h et le samedi de 9h-13h. Vous pouvez aussi nous laisser un message en remplissant le formulaire <a href="#myform"><strong>ci-dessous</strong></a>. Merci! </span>
             </div>
           </div>
           <div class="col-md-12 col-lg-4">
@@ -42,10 +42,10 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 section-t8">
+          <div class="col-sm-12 section-t8" id="myform">
             <div class="row">
               <div class="col-md-7">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form" >
                   <div class="row">
                     <div class="col-md-6 mb-3">
                       <div class="form-group">
