@@ -54,7 +54,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">
+                            <a href="typeBien.php">
                                 <i class="fas fa-th-list"></i>
                                 <p>Gérer les types de bien</p>
                                 <span class="badge badge-success">0</span>
