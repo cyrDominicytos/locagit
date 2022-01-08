@@ -40,19 +40,6 @@
 								</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 								<div class="card-body">
 									<!-- Modal -->
 									<div class="modal fade" id="addRowModal" tabindex="-1" role="dialog" aria-hidden="true">

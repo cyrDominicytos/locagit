@@ -120,7 +120,7 @@
       </div><!-- End Custom template -->
  </div>
 
- <?= isset($js) ? ($js) : ("") ?>
+
   <!--   Core JS Files   -->
   <script src="../../public/backend/assets/js/core/jquery.3.2.1.min.js"></script>
     <script src="../../public/backend/assets/js/core/popper.min.js"></script>
@@ -256,6 +256,9 @@
             fillColor: 'rgba(255, 165, 52, .14)'
         });
     </script>
+
+
+<?= isset($js) ? ($js) : ("") ?>
 </body>
 
 </html>
