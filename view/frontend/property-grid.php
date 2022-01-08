@@ -56,33 +56,80 @@
                 <div class="card-overlay-a-content">
                   <div class="card-header-a">
                     <h2 class="card-title-a">
-                      <a href="#">204 Mount
-                        <br /> Olive Road Two</a>
+                      <a href="#">Studio
+                        <br /><br /> Immeuble du Bonheur</a>
                     </h2>
-                  </div>
+                  </div><br />
                   <div class="card-body-a">
                     <div class="price-box d-flex">
-                      <span class="price-a">rent | $ 12.000</span>
+                      <span class="price-a">A louer | € 450</span>
                     </div>
-                    <a href="property-single.php" class="link-a">Click here to view
+                    <a href="property-single.php" class="link-a">Cliquer ici pour afficher
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
                   <div class="card-footer-a">
                     <ul class="card-info d-flex justify-content-around">
                       <li>
-                        <h4 class="card-info-title">Area</h4>
-                        <span>340m
+                        <h4 class="card-info-title">Superficie</h4>
+                        <span>19m
                           <sup>2</sup>
                         </span>
                       </li>
                       <li>
-                        <h4 class="card-info-title">Beds</h4>
-                        <span>2</span>
+                        <h4 class="card-info-title">Chambre(s)</h4>
+                        <span>1</span>
                       </li>
                       <li>
-                        <h4 class="card-info-title">Baths</h4>
-                        <span>4</span>
+                        <h4 class="card-info-title">Salle de bain</h4>
+                        <span>1</span>
+                      </li>
+                      <li>
+                        <h4 class="card-info-title">Garages</h4>
+                        <span>1</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+ <div class="col-md-4">
+            <div class="card-box-a card-shadow">
+              <div class="img-box-a">
+                <img src="../../public/frontend/assets/img/property-1.jpg" alt="" class="img-a img-fluid">
+              </div>
+              <div class="card-overlay">
+                <div class="card-overlay-a-content">
+                  <div class="card-header-a">
+                    <h2 class="card-title-a">
+                      <a href="#">Studio
+                        <br /><br /> Immeuble du Bonheur</a>
+                    </h2>
+                  </div><br />
+                  <div class="card-body-a">
+                    <div class="price-box d-flex">
+                      <span class="price-a">A louer | € 450</span>
+                    </div>
+                    <a href="property-single.php" class="link-a">Cliquer ici pour afficher
+                      <span class="bi bi-chevron-right"></span>
+                    </a>
+                  </div>
+                  <div class="card-footer-a">
+                    <ul class="card-info d-flex justify-content-around">
+                      <li>
+                        <h4 class="card-info-title">Superficie</h4>
+                        <span>19m
+                          <sup>2</sup>
+                        </span>
+                      </li>
+                      <li>
+                        <h4 class="card-info-title">Chambre(s)</h4>
+                        <span>1</span>
+                      </li>
+                      <li>
+                        <h4 class="card-info-title">Salle de bain</h4>
+                        <span>1</span>
                       </li>
                       <li>
                         <h4 class="card-info-title">Garages</h4>
@@ -97,39 +144,39 @@
           <div class="col-md-4">
             <div class="card-box-a card-shadow">
               <div class="img-box-a">
-                <img src="../../public/frontend/assets/img/property-3.jpg" alt="" class="img-a img-fluid">
+                <img src="../../public/frontend/assets/img/property-1.jpg" alt="" class="img-a img-fluid">
               </div>
               <div class="card-overlay">
                 <div class="card-overlay-a-content">
                   <div class="card-header-a">
                     <h2 class="card-title-a">
-                      <a href="#">204 Mount
-                        <br /> Olive Road Two</a>
+                      <a href="#">Studio
+                        <br /><br /> Immeuble du Bonheur</a>
                     </h2>
-                  </div>
+                  </div><br />
                   <div class="card-body-a">
                     <div class="price-box d-flex">
-                      <span class="price-a">rent | $ 12.000</span>
+                      <span class="price-a">A louer | € 450</span>
                     </div>
-                    <a href="property-single.php" class="link-a">Click here to view
+                    <a href="property-single.php" class="link-a">Cliquer ici pour afficher
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
                   <div class="card-footer-a">
                     <ul class="card-info d-flex justify-content-around">
                       <li>
-                        <h4 class="card-info-title">Area</h4>
-                        <span>340m
+                        <h4 class="card-info-title">Superficie</h4>
+                        <span>19m
                           <sup>2</sup>
                         </span>
                       </li>
                       <li>
-                        <h4 class="card-info-title">Beds</h4>
-                        <span>2</span>
+                        <h4 class="card-info-title">Chambre(s)</h4>
+                        <span>1</span>
                       </li>
                       <li>
-                        <h4 class="card-info-title">Baths</h4>
-                        <span>4</span>
+                        <h4 class="card-info-title">Salle de bain</h4>
+                        <span>1</span>
                       </li>
                       <li>
                         <h4 class="card-info-title">Garages</h4>
@@ -144,39 +191,39 @@
           <div class="col-md-4">
             <div class="card-box-a card-shadow">
               <div class="img-box-a">
-                <img src="../../public/frontend/assets/img/property-6.jpg" alt="" class="img-a img-fluid">
+                <img src="../../public/frontend/assets/img/property-1.jpg" alt="" class="img-a img-fluid">
               </div>
               <div class="card-overlay">
                 <div class="card-overlay-a-content">
                   <div class="card-header-a">
                     <h2 class="card-title-a">
-                      <a href="#">204 Mount
-                        <br /> Olive Road Two</a>
+                      <a href="#">Studio
+                        <br /><br /> Immeuble du Bonheur</a>
                     </h2>
-                  </div>
+                  </div><br />
                   <div class="card-body-a">
                     <div class="price-box d-flex">
-                      <span class="price-a">rent | $ 12.000</span>
+                      <span class="price-a">A louer | € 450</span>
                     </div>
-                    <a href="property-single.php" class="link-a">Click here to view
+                    <a href="property-single.php" class="link-a">Cliquer ici pour afficher
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
                   <div class="card-footer-a">
                     <ul class="card-info d-flex justify-content-around">
                       <li>
-                        <h4 class="card-info-title">Area</h4>
-                        <span>340m
+                        <h4 class="card-info-title">Superficie</h4>
+                        <span>19m
                           <sup>2</sup>
                         </span>
                       </li>
                       <li>
-                        <h4 class="card-info-title">Beds</h4>
-                        <span>2</span>
+                        <h4 class="card-info-title">Chambre(s)</h4>
+                        <span>1</span>
                       </li>
                       <li>
-                        <h4 class="card-info-title">Baths</h4>
-                        <span>4</span>
+                        <h4 class="card-info-title">Salle de bain</h4>
+                        <span>1</span>
                       </li>
                       <li>
                         <h4 class="card-info-title">Garages</h4>
@@ -191,39 +238,39 @@
           <div class="col-md-4">
             <div class="card-box-a card-shadow">
               <div class="img-box-a">
-                <img src="../../public/frontend/assets/img/property-7.jpg" alt="" class="img-a img-fluid">
+                <img src="../../public/frontend/assets/img/property-1.jpg" alt="" class="img-a img-fluid">
               </div>
               <div class="card-overlay">
                 <div class="card-overlay-a-content">
                   <div class="card-header-a">
                     <h2 class="card-title-a">
-                      <a href="#">204 Mount
-                        <br /> Olive Road Two</a>
+                      <a href="#">Studio
+                        <br /><br /> Immeuble du Bonheur</a>
                     </h2>
-                  </div>
+                  </div><br />
                   <div class="card-body-a">
                     <div class="price-box d-flex">
-                      <span class="price-a">rent | $ 12.000</span>
+                      <span class="price-a">A louer | € 450</span>
                     </div>
-                    <a href="property-single.php" class="link-a">Click here to view
+                    <a href="property-single.php" class="link-a">Cliquer ici pour afficher
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
                   <div class="card-footer-a">
                     <ul class="card-info d-flex justify-content-around">
                       <li>
-                        <h4 class="card-info-title">Area</h4>
-                        <span>340m
+                        <h4 class="card-info-title">Superficie</h4>
+                        <span>19m
                           <sup>2</sup>
                         </span>
                       </li>
                       <li>
-                        <h4 class="card-info-title">Beds</h4>
-                        <span>2</span>
+                        <h4 class="card-info-title">Chambre(s)</h4>
+                        <span>1</span>
                       </li>
                       <li>
-                        <h4 class="card-info-title">Baths</h4>
-                        <span>4</span>
+                        <h4 class="card-info-title">Salle de bain</h4>
+                        <span>1</span>
                       </li>
                       <li>
                         <h4 class="card-info-title">Garages</h4>
@@ -235,42 +282,42 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+           <div class="col-md-4">
             <div class="card-box-a card-shadow">
               <div class="img-box-a">
-                <img src="../../public/frontend/assets/img/property-8.jpg" alt="" class="img-a img-fluid">
+                <img src="../../public/frontend/assets/img/property-1.jpg" alt="" class="img-a img-fluid">
               </div>
               <div class="card-overlay">
                 <div class="card-overlay-a-content">
                   <div class="card-header-a">
                     <h2 class="card-title-a">
-                      <a href="#">204 Mount
-                        <br /> Olive Road Two</a>
+                      <a href="#">Studio
+                        <br /><br /> Immeuble du Bonheur</a>
                     </h2>
-                  </div>
+                  </div><br />
                   <div class="card-body-a">
                     <div class="price-box d-flex">
-                      <span class="price-a">rent | $ 12.000</span>
+                      <span class="price-a">A louer | € 450</span>
                     </div>
-                    <a href="property-single.php" class="link-a">Click here to view
+                    <a href="property-single.php" class="link-a">Cliquer ici pour afficher
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
                   <div class="card-footer-a">
                     <ul class="card-info d-flex justify-content-around">
                       <li>
-                        <h4 class="card-info-title">Area</h4>
-                        <span>340m
+                        <h4 class="card-info-title">Superficie</h4>
+                        <span>19m
                           <sup>2</sup>
                         </span>
                       </li>
                       <li>
-                        <h4 class="card-info-title">Beds</h4>
-                        <span>2</span>
+                        <h4 class="card-info-title">Chambre(s)</h4>
+                        <span>1</span>
                       </li>
                       <li>
-                        <h4 class="card-info-title">Baths</h4>
-                        <span>4</span>
+                        <h4 class="card-info-title">Salle de bain</h4>
+                        <span>1</span>
                       </li>
                       <li>
                         <h4 class="card-info-title">Garages</h4>
@@ -282,54 +329,6 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card-box-a card-shadow">
-              <div class="img-box-a">
-                <img src="../../public/frontend/assets/img/property-10.jpg" alt="" class="img-a img-fluid">
-              </div>
-              <div class="card-overlay">
-                <div class="card-overlay-a-content">
-                  <div class="card-header-a">
-                    <h2 class="card-title-a">
-                      <a href="#">204 Mount
-                        <br /> Olive Road Two</a>
-                    </h2>
-                  </div>
-                  <div class="card-body-a">
-                    <div class="price-box d-flex">
-                      <span class="price-a">rent | $ 12.000</span>
-                    </div>
-                    <a href="property-single.php" class="link-a">Click here to view
-                      <span class="bi bi-chevron-right"></span>
-                    </a>
-                  </div>
-                  <div class="card-footer-a">
-                    <ul class="card-info d-flex justify-content-around">
-                      <li>
-                        <h4 class="card-info-title">Area</h4>
-                        <span>340m
-                          <sup>2</sup>
-                        </span>
-                      </li>
-                      <li>
-                        <h4 class="card-info-title">Beds</h4>
-                        <span>2</span>
-                      </li>
-                      <li>
-                        <h4 class="card-info-title">Baths</h4>
-                        <span>4</span>
-                      </li>
-                      <li>
-                        <h4 class="card-info-title">Garages</h4>
-                        <span>1</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="row">
           <div class="col-sm-12">
             <nav class="pagination-a">

@@ -18,7 +18,7 @@
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> (123) 456-789 - 1255-12584 
+                  <span class="color-text-a">Phone .</span> (33) 06 27 76 80 98 
                 </li>
                 <li class="color-a">
                   <span class="color-text-a">Email .</span> admin@locagite.com

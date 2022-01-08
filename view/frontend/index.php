@@ -15,15 +15,15 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345
+                    <p class="intro-title-top">Rennes, France
+                      <br> 35000
                     </p>
                     <h1 class="intro-title mb-4 ">
-                      <span class="color-b">204 </span> Mount
-                      <br> Olive Road Two
+                      <span class="color-b">Appartement </span> 204
+                      <br> Immeuble des oliviers
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">A louer | € 1200</span></a>
                     </p>
                   </div>
                 </div>
@@ -40,15 +40,15 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345
+                    <p class="intro-title-top">Rennes, France
+                      <br>35000
                     </p>
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Rino
-                      <br> Venda Road Five
+                      <span class="color-b">Appartement</span> 112
+                      <br> Immeuble le Renard
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">A louer | € 990 </span></a>
                     </p>
                   </div>
                 </div>
@@ -65,15 +65,15 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345
+                    <p class="intro-title-top">Cesson-Sevigne, France
+                      <br> 35510
                     </p>
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Alira
-                      <br> Roan Road One
+                      <span class="color-b">Maison </span> Alira
+                      <br> 
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">A vendre | € 240.000</span></a>
                     </p>
                   </div>
                 </div>
@@ -120,36 +120,36 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="property-single.php">206 Mount
-                          <br /> Olive Road Two</a>
+                        <a href="property-single.php">Appartement 107
+                          <br /><br /> Immeuble du Renard</a>
                       </h2>
-                    </div>
+                    </div><br />
                     <div class="card-body-a">
                       <div class="price-box d-flex">
-                        <span class="price-a">rent | $ 12.000</span>
+                        <span class="price-a">A vendre | $ 115.000</span>
                       </div>
-                      <a href="#" class="link-a">Click here to view
+                      <a href="#" class="link-a">Cliquer ici pour afficher
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
                     <div class="card-footer-a">
                       <ul class="card-info d-flex justify-content-around">
                         <li>
-                          <h4 class="card-info-title">Area</h4>
-                          <span>340m
+                          <h1 class="card-info-title">Superficie</h1>
+                          <span>37m
                             <sup>2</sup>
                           </span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Beds</h4>
+                          <h6 class="card-info-title">Chambres</h6>
                           <span>2</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Baths</h4>
+                          <h6 class="card-info-title">Salle de bain</h6>
                           <span>4</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Garages</h4>
+                          <h6 class="card-info-title">Garages</h6>
                           <span>1</span>
                         </li>
                       </ul>
@@ -168,36 +168,36 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="property-single.php">157 West
-                          <br /> Central Park</a>
+                        <a href="property-single.php">Maison 
+                          <br /> <br /> Maisons du Sud</a>
                       </h2>
-                    </div>
+                    </div> <br />
                     <div class="card-body-a">
                       <div class="price-box d-flex">
-                        <span class="price-a">rent | $ 12.000</span>
+                        <span class="price-a">A louer | € 12.000</span>
                       </div>
-                      <a href="property-single.php" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Cliquer ici pour afficher
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
                     <div class="card-footer-a">
                       <ul class="card-info d-flex justify-content-around">
                         <li>
-                          <h4 class="card-info-title">Area</h4>
-                          <span>340m
+                          <h2 class="card-info-title">Superfice</h2>
+                          <span>112m
                             <sup>2</sup>
                           </span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Beds</h4>
-                          <span>2</span>
-                        </li>
-                        <li>
-                          <h4 class="card-info-title">Baths</h4>
+                          <h6 class="card-info-title">Chambre (s)</h6>
                           <span>4</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Garages</h4>
+                          <h6 class="card-info-title">Salle de bain</h6>
+                          <span>2</span>
+                        </li>
+                        <li>
+                          <h6 class="card-info-title">Garages</h6>
                           <span>1</span>
                         </li>
                       </ul>
@@ -216,36 +216,36 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="property-single.php">245 Azabu
-                          <br /> Nishi Park let</a>
+                        <a href="property-single.php">Appartement 245 
+                          <br /> <br /> Immeuble Courageux</a>
                       </h2>
-                    </div>
+                    </div> <br />
                     <div class="card-body-a">
                       <div class="price-box d-flex">
-                        <span class="price-a">rent | $ 12.000</span>
+                        <span class="price-a">A vendre | € 117.000</span>
                       </div>
-                      <a href="property-single.php" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Cliquer ici pour afficher
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
                     <div class="card-footer-a">
                       <ul class="card-info d-flex justify-content-around">
                         <li>
-                          <h4 class="card-info-title">Area</h4>
-                          <span>340m
+                          <h6 class="card-info-title">Superficie</h6>
+                          <span>57m
                             <sup>2</sup>
                           </span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Beds</h4>
+                          <h6 class="card-info-title">Chambre(s)</h6>
+                          <span>3</span>
+                        </li>
+                        <li>
+                          <h6 class="card-info-title">Salle de bain</h6>
                           <span>2</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Baths</h4>
-                          <span>4</span>
-                        </li>
-                        <li>
-                          <h4 class="card-info-title">Garages</h4>
+                          <h6 class="card-info-title">Garages</h6>
                           <span>1</span>
                         </li>
                       </ul>
@@ -264,36 +264,36 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="property-single.php">204 Montal
-                          <br /> South Bela Two</a>
+                        <a href="property-single.php">Studio
+                          <br /> <br /> Immeuble du Bonheur</a>
                       </h2>
-                    </div>
+                    </div> <br />
                     <div class="card-body-a">
                       <div class="price-box d-flex">
-                        <span class="price-a">rent | $ 12.000</span>
+                        <span class="price-a">A louer | € 450</span>
                       </div>
-                      <a href="property-single.php" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Cliquer ici pour afficher
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
                     <div class="card-footer-a">
                       <ul class="card-info d-flex justify-content-around">
                         <li>
-                          <h4 class="card-info-title">Area</h4>
-                          <span>340m
+                          <h6 class="card-info-title">Superficie</h6>
+                          <span>19m
                             <sup>2</sup>
                           </span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Beds</h4>
-                          <span>2</span>
+                          <h6 class="card-info-title">Chambres</h6>
+                          <span>1</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Baths</h4>
-                          <span>4</span>
+                          <h6 class="card-info-title">Salle de bain</h6>
+                          <span>1</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Garages</h4>
+                          <h6 class="card-info-title">Garages</h6>
                           <span>1</span>
                         </li>
                       </ul>
@@ -339,16 +339,16 @@
                 <div class="card-overlay">
                   <div class="card-header-b">
                     <div class="card-category-b">
-                      <a href="#" class="category-b">House</a>
+                      <a href="#" class="category-b">Maison</a>
                     </div>
                     <div class="card-title-b">
                       <h2 class="title-2">
-                        <a href="blog-single.php">House is comming
-                          <br> new</a>
+                        <a href="blog-single.php">
+                          <br> nouveau</a>
                       </h2>
                     </div>
                     <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
+                      <span class="date-b">18 dec. 2021</span>
                     </div>
                   </div>
                 </div>
@@ -363,16 +363,16 @@
                 <div class="card-overlay">
                   <div class="card-header-b">
                     <div class="card-category-b">
-                      <a href="#" class="category-b">Travel</a>
+                      <a href="#" class="category-b">Studio</a>
                     </div>
                     <div class="card-title-b">
                       <h2 class="title-2">
-                        <a href="blog-single.php">Travel is comming
-                          <br> new</a>
+                        <a href="blog-single.php">
+                          <br> nouveau</a>
                       </h2>
                     </div>
                     <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
+                      <span class="date-b">22 dec. 2021</span>
                     </div>
                   </div>
                 </div>
@@ -387,16 +387,16 @@
                 <div class="card-overlay">
                   <div class="card-header-b">
                     <div class="card-category-b">
-                      <a href="#" class="category-b">Park</a>
+                      <a href="#" class="category-b">Appartement</a>
                     </div>
                     <div class="card-title-b">
                       <h2 class="title-2">
-                        <a href="blog-single.php">Park is comming
-                          <br> new</a>
+                        <a href="blog-single.php">
+                          <br> nouveau</a>
                       </h2>
                     </div>
                     <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
+                      <span class="date-b">18 dec. 2021</span>
                     </div>
                   </div>
                 </div>
@@ -411,16 +411,16 @@
                 <div class="card-overlay">
                   <div class="card-header-b">
                     <div class="card-category-b">
-                      <a href="#" class="category-b">Travel</a>
+                      <a href="#" class="category-b">Studio</a>
                     </div>
                     <div class="card-title-b">
                       <h2 class="title-2">
-                        <a href="#">Travel is comming
-                          <br> new</a>
+                        <a href="#">
+                          <br> nouveau</a>
                       </h2>
                     </div>
                     <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
+                      <span class="date-b">27 dec. 2021</span>
                     </div>
                   </div>
                 </div>

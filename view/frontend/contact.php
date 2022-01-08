@@ -12,7 +12,7 @@
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
               <h1 class="title-single">Nous Contacter</h1>
-              <span class="color-text-a">Aut voluptas consequatur unde sed omnis ex placeat quis eos. Aut natus officia corrupti qui autem fugit consectetur quo. Et ipsum eveniet laboriosam voluptas beatae possimus qui ducimus. Et voluptatem deleniti. Voluptatum voluptatibus amet. Et esse sed omnis inventore hic culpa.</span>
+              <span class="color-text-a">Vous voulez nous rencontrer? Nous serons heureux de vous acceuillir dans nos locaux du lundi au vendredi de 8h30-12h30 et le samedi de 9h-13h. Merci! </span>
             </div>
           </div>
           <div class="col-md-12 col-lg-4">
@@ -49,17 +49,17 @@
                   <div class="row">
                     <div class="col-md-6 mb-3">
                       <div class="form-group">
-                        <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name" required>
+                        <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Votre nom" required>
                       </div>
                     </div>
                     <div class="col-md-6 mb-3">
                       <div class="form-group">
-                        <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email" required>
+                        <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Votre Email" required>
                       </div>
                     </div>
                     <div class="col-md-12 mb-3">
                       <div class="form-group">
-                        <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="Subject" required>
+                        <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="Objet" required>
                       </div>
                     </div>
                     <div class="col-md-12">
@@ -71,7 +71,7 @@
                       <div class="mb-3">
                         <div class="loading">Loading</div>
                         <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                        <div class="sent-message">Votre message a ét béien envoye. Merci!</div>
                       </div>
                     </div>
 
@@ -92,10 +92,10 @@
                     </div>
                     <div class="icon-box-content">
                       <p class="mb-1">Email.
-                        <span class="color-a">contact@example.com</span>
+                        <span class="color-a">admin@locagite.com</span>
                       </p>
                       <p class="mb-1">Phone.
-                        <span class="color-a">+54 356 945234</span>
+                        <span class="color-a">+33 06 27 76 80 98</span>
                       </p>
                     </div>
                   </div>
@@ -110,8 +110,8 @@
                     </div>
                     <div class="icon-box-content">
                       <p class="mb-1">
-                        Manhattan, Nueva York 10036,
-                        <br> EE. UU.
+                       Rue, 506 Avenue Saint Grégoire.
+                        <br>
                       </p>
                     </div>
                   </div>
