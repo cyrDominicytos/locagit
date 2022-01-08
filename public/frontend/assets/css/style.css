@@ -1226,7 +1226,7 @@ a:hover {
 }
 @media (min-width: 992px) {
   .card-info .card-info-title {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .card-info li span {

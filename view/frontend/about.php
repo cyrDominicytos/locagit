@@ -1,5 +1,5 @@
 
-<?php $title = 'Locagite - A propos de nous'; ?>
+<?php $title = 'Locagite - Notre agence'; ?>
 <?php $page = 2; ?>
 <?php ob_start(); ?>
 
