@@ -10,8 +10,8 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-8">
                         <div class="title-single-box">
-                            <h1 class="title-single">304 Blaster Up</h1>
-                            <span class="color-text-a">Chicago, IL 606543</span>
+                            <h1 class="title-single">Appartement 104</h1>
+                            <span class="color-text-a">Rennes, 3 rue de l'union</span>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-4">
@@ -21,10 +21,10 @@
                                     <a href="index.php">Accueil</a>
                                 </li>
                                 <li class="breadcrumb-item">
-                                    <a href="property-grid.php">Properties</a>
+                                    <a href="property-grid.php">Description</a>
                                 </li>
                                 <li class="breadcrumb-item active" aria-current="page">
-                                    304 Blaster Up
+                                    Appartement
                                 </li>
                             </ol>
                         </nav>
@@ -64,7 +64,7 @@
                                             <span class="bi bi-cash">$</span>
                                         </div>
                                         <div class="card-title-c align-self-center">
-                                            <h5 class="title-c">15000</h5>
+                                            <h5 class="title-c">12000</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -72,44 +72,43 @@
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <div class="title-box-d section-t4">
-                                                <h3 class="title-d">Quick Summary</h3>
+                                                <h3 class="title-d">Caractéristiques</h3>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="summary-list">
                                         <ul class="list">
                                             <li class="d-flex justify-content-between">
-                                                <strong>Property ID:</strong>
+                                                <strong>Identifiant de la propriété:</strong>
                                                 <span>1134</span>
                                             </li>
                                             <li class="d-flex justify-content-between">
-                                                <strong>Location:</strong>
-                                                <span>Chicago, IL 606543</span>
+                                                <strong>Localisation:</strong>
+                                                <span>Rennes, 3 rue de l'union</span>
                                             </li>
                                             <li class="d-flex justify-content-between">
-                                                <strong>Property Type:</strong>
-                                                <span>House</span>
+                                                <strong>Type de la propriété:</strong>
+                                                <span>Appartement</span>
                                             </li>
                                             <li class="d-flex justify-content-between">
-                                                <strong>Status:</strong>
-                                                <span>Sale</span>
+                                                <strong>Statut:</strong>
+                                                <span>A louer</span>
                                             </li>
                                             <li class="d-flex justify-content-between">
-                                                <strong>Area:</strong>
-                                                <span>340m
-                          <sup>2</sup>
+                                                <strong>Superficie:</strong>
+                                                <span>54m<sup>2</sup>
                         </span>
                                             </li>
                                             <li class="d-flex justify-content-between">
-                                                <strong>Beds:</strong>
+                                                <strong>Chambre(s):</strong>
                                                 <span>4</span>
                                             </li>
                                             <li class="d-flex justify-content-between">
-                                                <strong>Baths:</strong>
+                                                <strong>Salle(s) de bain:</strong>
                                                 <span>2</span>
                                             </li>
                                             <li class="d-flex justify-content-between">
-                                                <strong>Garage:</strong>
+                                                <strong>Garage(s):</strong>
                                                 <span>1</span>
                                             </li>
                                         </ul>
@@ -120,37 +119,37 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="title-box-d">
-                                            <h3 class="title-d">Property Description</h3>
+                                            <h3 class="title-d">Description de la propriété</h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="property-description">
                                     <p class="description color-text-a">
-                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.
-                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.
+                                        Propriété situe sur un terrain de 7400m
+                          <sup>2</sup> à Rennes (35000).
+                          Appartement 4 pièces de 54m<sup>2</sup> : 1 cuisine, 2 chambres, 1 salle de bain + WC.<br>
+                          Chauffage nouvelle génération : aérotherme reversible (chauffage+clim).<br>
+
+                          Premiers commerces à 3km+Gare TGV à 20min
                                     </p>
-                                    <p class="description color-text-a no-margin">
+                                   <!--  <p class="description color-text-a no-margin">
                                         Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
-                                    </p>
+                                    </p> -->
                                 </div>
                                 <div class="row section-t3">
                                     <div class="col-sm-12">
                                         <div class="title-box-d">
-                                            <h3 class="title-d">Amenities</h3>
+                                            <h3 class="title-d">Autres</h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="amenities-list color-text-a">
                                     <ul class="list-a no-margin">
-                                        <li>Balcony</li>
-                                        <li>Outdoor Kitchen</li>
-                                        <li>Cable Tv</li>
-                                        <li>Deck</li>
-                                        <li>Tennis Courts</li>
-                                        <li>Internet</li>
-                                        <li>Parking</li>
-                                        <li>Sun Room</li>
-                                        <li>Concrete Flooring</li>
+                                        <li>Balcon: Oui</li>
+                                        <li>Cuisine: Oui</li>
+                                        <li>Terrain de sport: Non</li>
+                                        <li>Internet: Oui</li>
+                                        <li>Parking: Oui</li>
                                     </ul>
                                 </div>
                             </div>
@@ -162,10 +161,10 @@
                                 <a class="nav-link active" id="pills-video-tab" data-bs-toggle="pill" href="#pills-video" role="tab" aria-controls="pills-video" aria-selected="true">Video</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="pills-plans-tab" data-bs-toggle="pill" href="#pills-plans" role="tab" aria-controls="pills-plans" aria-selected="false">Floor Plans</a>
+                                <a class="nav-link" id="pills-plans-tab" data-bs-toggle="pill" href="#pills-plans" role="tab" aria-controls="pills-plans" aria-selected="false"> Plan</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="pills-map-tab" data-bs-toggle="pill" href="#pills-map" role="tab" aria-controls="pills-map" aria-selected="false">Ubication</a>
+                                <a class="nav-link" id="pills-map-tab" data-bs-toggle="pill" href="#pills-map" role="tab" aria-controls="pills-map" aria-selected="false">Localisation</a>
                             </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
@@ -197,12 +196,12 @@
                                 <div class="property-agent">
                                     <h4 class="title-agent">Anabella Geller</h4>
                                     <p class="color-text-a">
-                                        Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                                        Agent immobilier en charge de a location.
                                     </p>
                                     <ul class="list-unstyled">
                                         <li class="d-flex justify-content-between">
                                             <strong>Phone:</strong>
-                                            <span class="color-text-a">(222) 4568932</span>
+                                            <span class="color-text-a">(33) 06 27 28 29 30</span>
                                         </li>
                                         <li class="d-flex justify-content-between">
                                             <strong>Mobile:</strong>
@@ -210,7 +209,7 @@
                                         </li>
                                         <li class="d-flex justify-content-between">
                                             <strong>Email:</strong>
-                                            <span class="color-text-a">annabella@example.com</span>
+                                            <span class="color-text-a">annabella@locagite.com</span>
                                         </li>
                                         <li class="d-flex justify-content-between">
                                             <strong>Skype:</strong>
@@ -249,7 +248,7 @@
                                         <div class="row">
                                             <div class="col-md-12 mb-1">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control form-control-lg form-control-a" id="inputName" placeholder="Name *" required>
+                                                    <input type="text" class="form-control form-control-lg form-control-a" id="inputName" placeholder="Nom *" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mb-1">
@@ -259,11 +258,11 @@
                                             </div>
                                             <div class="col-md-12 mb-1">
                                                 <div class="form-group">
-                                                    <textarea id="textMessage" class="form-control" placeholder="Comment *" name="message" cols="45" rows="8" required></textarea>
+                                                    <textarea id="textMessage" class="form-control" placeholder="Message *" name="message" cols="45" rows="8" required></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mt-3">
-                                                <button type="submit" class="btn btn-a">Send Message</button>
+                                                <button type="submit" class="btn btn-a">Envoyer Message</button>
                                             </div>
                                         </div>
                                     </form>
