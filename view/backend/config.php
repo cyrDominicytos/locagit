@@ -23,7 +23,7 @@
 								<i class="flaticon-right-arrow"></i>
 							</li>
 							<li class="nav-item">
-								<a href="#">Gérer les propriétés</a>
+								<a href="#">Paramétrer les système</a>
 							</li>
 						</ul>
 					</div>
@@ -32,32 +32,27 @@
 							<div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
-										<h4 class="card-title">Creer une personne</h4>
+										<h4 class="card-title">Information de l'agence</h4>
 									</div>
 								</div>
 								<div class="card-body">
 									<form >
                                     <div class="row">
-												<div class="col-md-12">
-                                                    <div class="avatar-lg" style="display: inline-block; vertical-align: middle;">
-                                                        <img src="../../public/backend/assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
-                                                    </div>
-												</div>
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="nom" name="nom"   type="text"  class="form-control input-border-bottom" required max="200">
-														<label for="nom" class="placeholder">Nom *</label>
+														<input  id="nom" name="nom"   type="text"  class="form-control input-border-bottom" required  max="200">
+														<label for="nom" class="placeholder">Nom de l'agence*</label>
 													</div>
 												</div>
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="prenom" name="prenom"   type="text"  class="form-control input-border-bottom" required max="200">
-														<label for="prenom" class="placeholder">Prénom *</label>
+														<input  id="adresse" name="adresse"   type="text"  class="form-control input-border-bottom" required max="200">
+														<label for="adresse" class="placeholder">Adresse complete *</label>
 													</div>
 												</div>
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="email" name="email"   type="text"  class="form-control input-border-bottom" required max="200">
+														<input  id="email" name="email"   type="email"  class="form-control input-border-bottom" required max="200">
 														<label for="email" class="placeholder">Email *</label>
 													</div>
 												</div>
@@ -68,50 +63,31 @@
 													</div>
 												</div>
 												<div class="col-md-6">
-                                                    <div class="form-group form-floating-label">
-                                                        <select class="form-control input-border-bottom"  id="sexe" name="sexe" required>
-                                                            <option value="M" >M</option>
-                                                            <option value="F" >F</option>
-                                                        </select>
-                                                        <label for="sexe" class="placeholder">Sexe *</label>
-                                                    </div>
+													<div class="form-group form-floating-label">
+														<input  id="facebook" name="facebook"   type="text"  class="form-control input-border-bottom" >
+														<label for="facebook" class="placeholder">Lien Facebook</label>													</div>
 												</div>
 												<div class="col-md-6">
-                                                    <div class="form-group form-floating-label">
-                                                        <select class="form-control input-border-bottom"  id="type" name="type" onchange="changeType()" required>
-                                                            <option value="1" >Partenaire</option>
-                                                            <option value="2" >Collaborateur</option>
-                                                            <option value="3" >Propriétaire</option>
-                                                            <option value="4" >Administrateur</option>
-                                                        </select>
-                                                        <label for="type" class="placeholder">Type de personne *</label>
-                                                    </div>
-												</div>
-                                                <div class="col-md-6" id="siteUrlDiv" style="display:none">
 													<div class="form-group form-floating-label">
-														<input  id="siteUrl" name="siteUrl"   type="text"  class="form-control input-border-bottom" required max="200">
-														<label for="siteUrl" class="placeholder">Site Url *</label>
+														<input  id="instagram" name="instagram"   type="text"  class="form-control input-border-bottom" >
+														<label for="instagram" class="placeholder">Lien Instagram</label>													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-floating-label">
+														<input  id="twitter" name="twitter"   type="text"  class="form-control input-border-bottom" >
+														<label for="twitter" class="placeholder">Lien Twitter</label>													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group form-floating-label">
+														<input  id="linkedin" name="linkedin"   type="text"  class="form-control input-border-bottom">
+														<label for="linkedin" class="placeholder">Lien LinkedIn</label>													</div>
+												</div>
+                                                <div class="col-md-4 offset-md-4" >
+													<div class="form-group form-floating-label">
+														<input  id="logo" name="logo" type="file"  class="form-control input-border-bottom">
+														<label for="logo" class="placeholder">Logo agence *</label>
 													</div>
 												</div>
-                                                <div class="col-md-6" id="ordreAfficheDiv1" style="display:none">
-													<div class="form-group form-floating-label">
-														<input  id="ordreAffiche" name="ordreAffiche" type="text"  class="form-control input-border-bottom" required max="200">
-														<label for="ordreAffiche" class="placeholder">Ordre Affichage *</label>
-													</div>
-												</div>
-                                                <div class="col-md-4 offset-md-4" id="ordreAfficheDiv2" style="display:none">
-													<div class="form-group form-floating-label">
-														<input  id="ordreAffiche" name="ordreAffiche" type="text"  class="form-control input-border-bottom" required max="200">
-														<label for="ordreAffiche" class="placeholder">Ordre Affichage *</label>
-													</div>
-												</div>
-                                                <div class="col-md-4 offset-md-4" id="dateContratDiv" style="display:none">
-													<div class="form-group form-floating-label">
-														<input  id="dateContrat" name="dateContrat" type="date"  class="form-control input-border-bottom" required max="200">
-														<label for="dateContrat" class="placeholder">Date de contrat *</label>
-													</div>
-												</div>
-                                                
                                             </div>
                                             <div class="row mt-5">
                                                 <div class="col-md-4 ">
@@ -119,7 +95,7 @@
                                                 </div>
                                                 
                                                 <div class="col-md-4 offset-md-4" >
-                                                    <button type="submit" id="addRowButton" class="btn btn-pnud" style="display: inline-block;  vertical-align: middle; ">Enregistrer</button>
+                                                    <button type="submit" id="addRowButton" class="btn btn-pnud" style="display: inline-block;  vertical-align: middle; ">Sauvegarder</button>
                                                 </div>
                                             </div>
                                     </form>
