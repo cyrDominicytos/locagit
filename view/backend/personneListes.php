@@ -22,7 +22,7 @@
 								<i class="flaticon-right-arrow"></i>
 							</li>
 							<li class="nav-item">
-								<a href="#">Gérer les types</a>
+								<a href="#">Gérer les personnes</a>
 							</li>
 						</ul>
 					</div>
@@ -32,52 +32,13 @@
 								<div class="card-header">
 									<!-- Button -->
 					<div class="d-flex">
-						<button class="btn btn-primary btn-round ml-auto mb-3" data-toggle="modal" data-target="#addRowModal">
+						<button class="btn btn-primary btn-round ml-auto mb-3" onclick="document.location='personnes.php'" >
 							<i class="fa fa-plus"></i>
 							Créer nouveau
 
 						</button>
 					</div>
-					<!-- Modal -->
-					<div class="modal fade" id="addRowModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						<div class="modal-dialog" role="document">
-							<form action="" method="post" id="mdForm">
-								<div class="modal-content">
-									<div class="modal-header no-bd">
-									<h5 class="modal-title">
-										<span class="fw-mediumbold">
-										Création d'un type</span> 
-										
-									</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<div class="modal-body">
-										<p class="small">Remplissez les champs afin de créer un nouveau type de proprété.</p>
-											<div class="row">
-												<div class="col-md-12">
-													<div class="form-group form-floating-label">
-														<input  id="intitule" name="intitule"   type="text"  class="form-control input-border-bottom" required max="200">
-														<label for="intitule" class="placeholder">Designation *</label>
-													</div>
-												</div>
-												<div class="col-md-12">
-													<div class="form-group">
-														<label>Description</label>
-														<textarea name="description" class="form-control" id="description" placeholder="Brèf détail du type..."></textarea>
-													</div>
-												</div>
-											</div>
-									</div>
-									<div class="modal-footer no-bd">
-										<button type="submit" id="addRowButton" class="btn btn-primary">Enregistrer</button>
-										<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
+					
 					<!-- Table -->
 					<div class="table-responsive">
 						<table id="add-row" class="display table table-striped table-hover" cellspacing="0" width="100%">
@@ -131,19 +92,7 @@
 $('#add-row').DataTable({
 	"pageLength": 5,
 });
-/*
-var action = '<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-simple-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-simple-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
 
-$('#addRowButton').click(function() {
-	$('#add-row').dataTable().fnAddData([
-		$("#addName").val(),
-		$("#addPosition").val(),
-		$("#addOffice").val(),
-		action
-		]);
-	$('#addRowModal').modal('hide');
-
-});*/
 
 function edit(id) {
 	var row = document.getElementById("add-row").rows[id];

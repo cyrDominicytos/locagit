@@ -2,6 +2,7 @@
 <?php $page = 1; ?>
 <!-- specific css -->
 <?php ob_start(); ?>
+<link rel="stylesheet" href="../../public/backend/assets/css/custom.css"/>
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 <?php $css = ob_get_clean(); ?>
 
@@ -156,84 +157,17 @@
                                                                         </div>
                                                                         <div class="tab-pane fade" id="pills-profile-nobd" role="tabpanel" aria-labelledby="pills-profile-tab-nobd">
                                                                             <div class="col-md-12">
-                                                                            <div id="carouselExampleTouch" class="carousel slide" data-mdb-touch="false">
-                                                                                <div class="carousel-indicators">
-                                                                                    <button
-                                                                                    type="button"
-                                                                                    data-mdb-target="#carouselExampleTouch"
-                                                                                    data-mdb-slide-to="0"
-                                                                                    class="active"
-                                                                                    aria-current="true"
-                                                                                    aria-label="Slide 1"
-                                                                                    ></button>
-                                                                                    <button
-                                                                                    type="button"
-                                                                                    data-mdb-target="#carouselExampleTouch"
-                                                                                    data-mdb-slide-to="1"
-                                                                                    aria-label="Slide 2"
-                                                                                    ></button>
-                                                                                    <button
-                                                                                    type="button"
-                                                                                    data-mdb-target="#carouselExampleTouch"
-                                                                                    data-mdb-slide-to="2"
-                                                                                    aria-label="Slide 3"
-                                                                                    ></button>
-                                                                                </div>
-                                                                                <div class="carousel-inner">
-                                                                                    <div class="carousel-item active">
-                                                                                    <img
-                                                                                        src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-                                                                                        class="d-block w-100"
-                                                                                        alt="Wild Landscape"
-                                                                                    />
-                                                                                    <div class="carousel-caption d-none d-md-block">
-                                                                                        <h5>First slide label</h5>
-                                                                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                                                                    </div>
-                                                                                    </div>
-                                                                                    <div class="carousel-item">
-                                                                                    <img
-                                                                                        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-                                                                                        class="d-block w-100"
-                                                                                        alt="Camera"
-                                                                                    />
-                                                                                    <div class="carousel-caption d-none d-md-block">
-                                                                                        <h5>Second slide label</h5>
-                                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                                                    </div>
-                                                                                    </div>
-                                                                                    <div class="carousel-item">
-                                                                                    <img
-                                                                                        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-                                                                                        class="d-block w-100"
-                                                                                        alt="Exotic Fruits"
-                                                                                    />
-                                                                                    <div class="carousel-caption d-none d-md-block">
-                                                                                        <h5>Third slide label</h5>
-                                                                                        <p>
-                                                                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                                                                                        </p>
-                                                                                    </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <button
-                                                                                    class="carousel-control-prev"
-                                                                                    type="button"
-                                                                                    data-mdb-target="#carouselExampleTouch"
-                                                                                    data-mdb-slide="prev"
-                                                                                >
-                                                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                                                    <span class="visually-hidden">Previous</span>
-                                                                                </button>
-                                                                                <button
-                                                                                    class="carousel-control-next"
-                                                                                    type="button"
-                                                                                    data-mdb-target="#carouselExampleTouch"
-                                                                                    data-mdb-slide="next"
-                                                                                >
-                                                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                                                    <span class="visually-hidden">Next</span>
-                                                                                </button>
+                                                                            <div class="table-repsonsive">
+                                                                                <span id="error"></span>
+                                                                                <table class="table table-bordered" id="item_table">
+                                                                                    <tr>
+                                                                                        <th>Joindre un document</th>
+                                                                                        <th><button type="button" name="add" class="btn btn-success btn-sm add"><span class="fa fa-plus"></span></button></th>
+                                                                                    </tr>
+
+
+                                                                                </table>
+                                                                            
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -255,10 +189,11 @@
 										</div>
 									</div>
 									
-
-									<div class="table-responsive">
-										<table id="add-row_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4" ><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="add-row_length"><label>Show <select name="add-row_length" aria-controls="add-row" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-12 col-md-6"><div id="add-row_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="add-row"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="add-row" class="display table table-striped table-hover dataTable" role="grid" aria-describedby="add-row_info">
-											<thead class="theader">
+									<!-- <div class="table-responsive">
+										<table id="add-row_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4" > -->
+                                        <div class="table-responsive">
+	<table id="add-row" class="display table table-striped table-hover" cellspacing="0" width="100%">
+											<thead class="">
                                                 <tr>
                                                     <th rowspan="1" colspan="1">N°</th>
                                                     <th rowspan="1" colspan="1">Désignation</th>
@@ -294,7 +229,49 @@
                                                     <td rowspan="1" colspan="1">Location</td>
                                                     <td rowspan="1" colspan="1"></td>
                                                     <td rowspan="1" colspan="1">2500</td>
-                                                    <td rowspan="1" colspan="1" ><button class="btn btn-success" disabled="disabled">Disponible</button></td>
+                                                    <td rowspan="1" colspan="1" ><span class="badge badge-success">Disponible</span></td>
+                                                    <td rowspan="1" colspan="1">Jolie Appartement à louer</td>
+                                                    <td rowspan="1" colspan="1" style="width: 189.188px;">30/12/2021</td>
+                                                    <td rowspan="1" colspan="1">
+                                                        <div class="form-button-action">
+                                                            <button type="button" data-toggle="modal" data-target="#addRowModal"  onclick="edit({{$vendeur}})" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Editer ce vendeur">
+                                                                <i class="fa fa-edit"></i>
+                                                            </button>
+                                                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Bannir ce vendeur">
+                                                                <i class="fa fa-times"></i>
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>		
+                                                <tr>
+                                                    <td rowspan="1" colspan="1">N°</td>
+                                                    <td rowspan="1" colspan="1">Appartement avec vue sur la mer</td>
+                                                    <td rowspan="1" colspan="1">00748/Rennes</td>
+                                                    <td rowspan="1" colspan="1">Location</td>
+                                                    <td rowspan="1" colspan="1"></td>
+                                                    <td rowspan="1" colspan="1">2500</td>
+                                                    <td rowspan="1" colspan="1" ><span class="badge badge-success">Disponible</span></td>
+                                                    <td rowspan="1" colspan="1">Jolie Appartement à louer</td>
+                                                    <td rowspan="1" colspan="1" style="width: 189.188px;">30/12/2021</td>
+                                                    <td rowspan="1" colspan="1">
+                                                        <div class="form-button-action">
+                                                            <button type="button" data-toggle="modal" data-target="#addRowModal"  onclick="edit({{$vendeur}})" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Editer ce vendeur">
+                                                                <i class="fa fa-edit"></i>
+                                                            </button>
+                                                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Bannir ce vendeur">
+                                                                <i class="fa fa-times"></i>
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>		
+                                                <tr>
+                                                    <td rowspan="1" colspan="1">N°</td>
+                                                    <td rowspan="1" colspan="1">Appartement avec vue sur la mer</td>
+                                                    <td rowspan="1" colspan="1">00748/Rennes</td>
+                                                    <td rowspan="1" colspan="1">Location</td>
+                                                    <td rowspan="1" colspan="1"></td>
+                                                    <td rowspan="1" colspan="1">2500</td>
+                                                    <td rowspan="1" colspan="1" ><span class="badge badge-success">Disponible</span></td>
                                                     <td rowspan="1" colspan="1">Jolie Appartement à louer</td>
                                                     <td rowspan="1" colspan="1" style="width: 189.188px;">30/12/2021</td>
                                                     <td rowspan="1" colspan="1">
@@ -312,17 +289,6 @@
 									</table>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-12 col-md-5">
-                                    <div class="dataTables_info" id="add-row_info" role="status" aria-live="polite">Affichage de 1 à 5 sur 10 Entrée(s)</div>
-                                    </div>
-                                <div class="col-sm-12 col-md-7">
-                                    <div class="dataTables_paginate paging_simple_numbers" id="add-row_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="add-row_previous"><a href="#" aria-controls="add-row" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="add-row" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="add-row" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item next" id="add-row_next"><a href="#" aria-controls="add-row" data-dt-idx="3" tabindex="0" class="page-link">Next</a></li></ul></div></div></div></div>
-									</div>
-								</div>
-							</div>
-
-                            
 						</div>
 					</div>
 				</div>
@@ -371,14 +337,92 @@
     }
 
 
+//For datatable
+    // Add Row
+    $('#add-row').DataTable({
+	"pageLength": 5,
+});
 
-    //For datatable
-   
+/*var action = '<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-simple-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-simple-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
+
+$('#addRowButton').click(function() {
+	$('#add-row').dataTable().fnAddData([
+		$("#addName").val(),
+		$("#addPosition").val(),
+		$("#addOffice").val(),
+		action
+		]);
+	$('#addRowModal').modal('hide');
+
+});*/
 </script>
 <?php $js = ob_get_clean(); ?>
 <!-- Loading of our website frontend template -->
 <?php require('backTemplate.php'); ?>
 
-	
+<script>
+$(document).ready(function(){
+ $(document).on('click', '.add', function(){
+        
+  
+  var html = '';
+  html += '<tr>';
+  html += '<td><input type="file" id="file_document[]" name="file_document[]" class="form-control design file_document" /></td>';
+  html += '<td><button type="button" name="remove" class="btn btn-danger btn-sm remove"><span class="fa fa-minus"></span></button></td></tr>';
+  $('#item_table').append(html);
+ });
+ 
+ $(document).on('click', '.remove', function(){
+  $(this).closest('tr').remove();
+ });
+ 
+ $('#insert_form').on('submit', function(event){
+  event.preventDefault();
+  var error = '';
+  $('.type_document').each(function(){
+   var count = 1;
+   if($(this).val() == '')
+   {
+    error += "<p>Select Type Document at "+count+" Row</p>";
+    return false;
+   }
+   count = count + 1;
+  });
+  
+  
+  $('.file_document').each(function(){
+   var count = 1;
+   if($(this).val() == '')
+   {
+    error += "<p>Upload Doc "+count+" Row</p>";
+    return false;
+   }
+   count = count + 1;
+  });
+  var form_data = $(this).serialize();
+  if(error == '')
+  {
+   $.ajax({
+    url:"insert.php",
+    method:"POST",
+    data:form_data,
+    success:function(data)
+    {
+     if(data == 'ok')
+     {
+      $('#item_table').find("tr:gt(0)").remove();
+      $('#error').html('<div class="alert alert-success">Item Details Saved</div>');
+     }
+    }
+   });
+  }
+  else
+  {
+   $('#error').html('<div class="alert alert-danger">'+error+'</div>');
+  }
+ });
+ 
+});
+</script>
 
  

@@ -22,7 +22,7 @@
 								<i class="flaticon-right-arrow"></i>
 							</li>
 							<li class="nav-item">
-								<a href="#">Gérer les types</a>
+								<a href="#">Gérer postes</a>
 							</li>
 						</ul>
 					</div>
@@ -46,7 +46,7 @@
 									<div class="modal-header no-bd">
 									<h5 class="modal-title">
 										<span class="fw-mediumbold">
-										Création d'un type</span> 
+										Création d'un poste</span> 
 										
 									</h5>
 										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -54,7 +54,7 @@
 										</button>
 									</div>
 									<div class="modal-body">
-										<p class="small">Remplissez les champs afin de créer un nouveau type de proprété.</p>
+										<p class="small">Remplissez les champs afin de créer un nouveau poste.</p>
 											<div class="row">
 												<div class="col-md-12">
 													<div class="form-group form-floating-label">

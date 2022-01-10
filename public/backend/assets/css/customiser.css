@@ -11,3 +11,128 @@
     /* color: #6861ce; */
     color: #1572e8!important;
 }
+
+
+/*costo;ise css*/
+
+.btn-pnud {
+    color: #fff !important;
+    background-color: #2773B3 !important;
+    border: 3px solid #2773B3 !important;
+    border-radius: 25px !important;
+    width: 200px !important;
+    box-shadow: none;
+    font-weight: 700;
+}
+
+.btn-pnud3 {
+    color: #2773B3 !important;
+    background-color: #fff !important;
+    border: 3px solid #2773B3 !important;
+    border-radius: 25px !important;
+    font-size: .8rem !important;
+    width: 230px !important;
+    height: 36px;
+    box-shadow: none;
+}
+
+.btn-pnud3:hover {
+    background-color: #CEE3F5 !important;
+    font-weight: 700;
+}
+
+.btn-gray {
+    color: #fff !important;
+    background-color: #6A6161 !important;
+    border: 3px solid #6A6161 !important;
+    border-radius: 25px !important;
+    width: 200px !important;
+    box-shadow: none;
+    font-weight: 700;
+}
+
+.btn-pnud-square {
+    color: #fff !important;
+    background-color: #2773B3 !important;
+    border: 3px solid #2773B3 !important;
+    width: 150px !important;
+    box-shadow: none;
+    font-weight: 500;
+}
+
+.btn-gray-square {
+    color: #fff !important;
+    background-color: #6A6161 !important;
+    border: 3px solid #6A6161 !important;
+    width: 150px !important;
+    box-shadow: none;
+    font-weight: 500;
+}
+
+.btn-reject {
+    color: #fff !important;
+    background-color: #b32727 !important;
+    border: 3px solid #b32727 !important;
+    border-radius: 25px !important;
+    width: 200px !important;
+    box-shadow: none;
+    font-weight: 700;
+}
+
+.btn-approval {
+    color: #fff !important;
+    background-color: #035003 !important;
+    border: 3px solid #035003 !important;
+    border-radius: 25px !important;
+    width: 200px !important;
+    box-shadow: none;
+    font-weight: 700;
+}
+
+.btn-plus {
+    color: #fff !important;
+    background-color: #035003 !important;
+    border-color: #035003 !important;
+    border-radius: 100% !important;
+    width: 35px !important;
+    height: 35px !important;
+    box-shadow: none;
+}
+
+.btn-pnud:hover,
+.btn-pnud-square:hover {
+    color: #2773B3 !important;
+    background-color: #fff !important;
+    border: 3px solid #2773B3 !important;
+}
+
+.btn-gray:hover,
+.btn-gray-square:hover {
+    color: #6A6161 !important;
+    background-color: #fff !important;
+    border: 3px solid #6A6161 !important;
+}
+
+.btn-reject:hover {
+    color: #fff !important;
+    background-color: #9b0101 !important;
+    border: 3px solid #9b0101 !important;
+}
+
+.btn-approval:hover {
+    color: #fff !important;
+    background-color: #042901 !important;
+    border: 3px solid #042901 !important;
+}
+
+.btn-gray:hover a {
+    color: #6A6161;
+}
+
+.btn-gray a {
+    color: #fff;
+}
+
+.fa-circle {
+    font-size: 10px !important;
+}

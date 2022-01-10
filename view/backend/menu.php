@@ -61,14 +61,14 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">
+                            <a href="postes.php">
                                 <i class="fas fa-th-list"></i>
                                 <p>Gérer les postes</p>
                                 <span class="badge badge-success">0</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">
+                            <a href="personneListes.php">
                                 <i class="fas fa-pen-square"></i>
                                 <p>Gérer les propriétaires</p>
                                 <span class="badge badge-success">0</span>
@@ -97,7 +97,7 @@
                             <div class="collapse" id="submenu">
                                 <ul class="nav nav-collapse">
                                     <li>
-                                        <a href="#">
+                                        <a href="config.php">
                                             <span class="sub-item">Informations de l'agence</span>
                                         </a>
                                     </li>
