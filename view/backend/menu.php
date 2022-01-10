@@ -70,24 +70,10 @@
                         <li class="nav-item">
                             <a href="personneListes.php">
                                 <i class="fas fa-pen-square"></i>
-                                <p>Gérer les propriétaires</p>
+                                <p>Gérer les personnes</p>
                                 <span class="badge badge-success">0</span>
                             </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="">
-                                <i class="fas fa-table"></i>
-                                <p>Gérer collaborateurs</p>
-                                <span class="badge badge-success">0</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <p>Gérer partenaires</p>
-                                <span class="badge badge-success">0</span>
-                            </a>
-                        </li>
+                        </li>             
                         <li class="nav-item">
                             <a data-toggle="collapse" href="#submenu">
                                 <i class="fas fa-bars"></i>
