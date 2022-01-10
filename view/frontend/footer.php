@@ -39,13 +39,13 @@
                     <i class="bi bi-chevron-right"></i> <a href="#">Derniers Evènements</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Termes et conditions</a>
+                    <i class="bi bi-chevron-right"></i> <a href="conditions.php">Termes et conditions</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Politique de confidentialité</a>
+                    <i class="bi bi-chevron-right"></i> <a href="politique.php">Politique de confidentialité</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Nous contacter</a>
+                    <i class="bi bi-chevron-right"></i> <a href="contact.php">Nous contacter</a>
                   </li>
                  
                  
@@ -62,19 +62,19 @@
             <div class="w-body-a">
               <ul class="list-unstyled">
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Accueil</a>
+                  <i class="bi bi-chevron-right"></i> <a href="index.php">Accueil</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Notre Agence</a>
+                  <i class="bi bi-chevron-right"></i> <a href="about.php">Notre Agence</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Nos Propriétés</a>
+                  <i class="bi bi-chevron-right"></i> <a href="property-grid.php">Nos Propriétés</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Nos Collaborateurs</a>
+                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.php">Nos Collaborateurs</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Nos Partenaires</a>
+                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.php">Nos Partenaires</a>
                 </li>
               </ul>
             </div>
