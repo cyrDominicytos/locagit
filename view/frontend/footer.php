@@ -18,10 +18,10 @@
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> <?= $parametres->getParams('phone_site') != null ? $parametres->getParams('phone_site')['valeur'] :'#'?></strong><br><?= $parametres->getParams('adresse_site') != null ? $parametres->getParams('adresse_site')['valeur'] :'#'?>
+                  <span class="color-text-a">Phone .</span> <?= $parametres->getParams('phone_site') != null ? $parametres->getParams('phone_site')['valeur'] :'#'?></strong><br>
                 </li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span> <?= $parametres->getParams('email_site') != null ? $parametres->getParams('email_site')['valeur'] :'#'?></strong><br><?= $parametres->getParams('adresse_site') != null ? $parametres->getParams('adresse_site')['valeur'] :'#'?>
+                  <span class="color-text-a">Email .</span> <?= $parametres->getParams('email_site') != null ? $parametres->getParams('email_site')['valeur'] :'#'?></strong><br>
                 </li>
               </ul>
             </div>
@@ -39,13 +39,13 @@
                     <i class="bi bi-chevron-right"></i> <a href="#">Derniers Evènements</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="conditions.php">Termes et conditions</a>
+                    <i class="bi bi-chevron-right"></i> <a href="index.php?action=conditions">Termes et conditions</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="politique.php">Politique de confidentialité</a>
+                    <i class="bi bi-chevron-right"></i> <a href="index.php?action=politique">Politique de confidentialité</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="contact.php">Nous contacter</a>
+                    <i class="bi bi-chevron-right"></i> <a href="index.php?action=contact">Nous contacter</a>
                   </li>
                  
                  
@@ -65,16 +65,16 @@
                   <i class="bi bi-chevron-right"></i> <a href="index.php">Accueil</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="about.php">Notre Agence</a>
+                  <i class="bi bi-chevron-right"></i> <a href="index.php?action=about">Notre Agence</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="property-grid.php">Nos Propriétés</a>
+                  <i class="bi bi-chevron-right"></i> <a href="index.php?action=property-grid">Nos Propriétés</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.php">Nos Collaborateurs</a>
+                  <i class="bi bi-chevron-right"></i> <a href="index.php?action=agents-grid">Nos Collaborateurs</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.php">Nos Partenaires</a>
+                  <i class="bi bi-chevron-right"></i> <a href="index.php?action=agents-grid">Nos Partenaires</a>
                 </li>
               </ul>
             </div>

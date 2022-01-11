@@ -92,10 +92,10 @@
                     </div>
                     <div class="icon-box-content">
                       <p class="mb-1">Email.
-                        <span class="color-a">admin@locagite.com</span>
+                        <span class="color-a"><?= $parametres->getParams('email_site') != null ? $parametres->getParams('email_site')['valeur'] :'#'?></span>
                       </p>
                       <p class="mb-1">Phone.
-                        <span class="color-a">+33 06 27 76 80 98</span>
+                        <span class="color-a"><?= $parametres->getParams('phone_site') != null ? $parametres->getParams('phone_site')['valeur'] :'#'?></span>
                       </p>
                     </div>
                   </div>
@@ -110,7 +110,8 @@
                     </div>
                     <div class="icon-box-content">
                       <p class="mb-1">
-                       Rue, 506 Avenue Saint Grégoire.
+                      <span class="color-a"><?= $parametres->getParams('adresse_site') != null ? $parametres->getParams('adresse_site')['valeur'] :'#'?></span>
+
                         <br>
                       </p>
                     </div>
@@ -128,22 +129,22 @@
                       <div class="socials-footer">
                         <ul class="list-inline">
                           <li class="list-inline-item">
-                            <a href="#" class="link-one">
+                            <a href="<?= $parametres->getParams('facebook') != null ? $parametres->getParams('facebook')['valeur'] :'#'?>" target="_blank" class="link-one">
                               <i class="bi bi-facebook" aria-hidden="true"></i>
                             </a>
                           </li>
                           <li class="list-inline-item">
-                            <a href="#" class="link-one">
+                            <a href="<?= $parametres->getParams('twitter') != null ? $parametres->getParams('twitter')['valeur'] :'#'?>" target="_blank" class="link-one">
                               <i class="bi bi-twitter" aria-hidden="true"></i>
                             </a>
                           </li>
                           <li class="list-inline-item">
-                            <a href="#" class="link-one">
+                            <a href="<?= $parametres->getParams('instagram') != null ? $parametres->getParams('instagram')['valeur'] :'#'?>" target="_blank" class="link-one">
                               <i class="bi bi-instagram" aria-hidden="true"></i>
                             </a>
                           </li>
                           <li class="list-inline-item">
-                            <a href="#" class="link-one">
+                            <a href="<?= $parametres->getParams('linkedin') != null ? $parametres->getParams('linkedin')['valeur'] :'#'?>" target="_blank" class="link-one">
                               <i class="bi bi-linkedin" aria-hidden="true"></i>
                             </a>
                           </li>

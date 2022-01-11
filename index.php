@@ -42,6 +42,14 @@ if (isset($_GET['action'])) {
     elseif ($_GET['action'] == 'typeBien') {
         typeBien();
     }
+    elseif ($_GET['action'] == 'conditions') {
+        conditions();
+    }
+    elseif ($_GET['action'] == 'politique') {
+        politique();
+    }
+
+
     elseif ($_GET['action'] == 'insertPersonne') {
         insertPersonne();
     }
@@ -50,6 +58,10 @@ if (isset($_GET['action'])) {
     }
     elseif ($_GET['action'] == 'config') {
         config();
+
+        //default redirection
+    }else{
+        index();
     }
 }
 else {

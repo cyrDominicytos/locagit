@@ -99,7 +99,9 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.php">Loca<span class="color-b">Gite</span></a>
+      <a class="navbar-brand text-brand" href="index.php">
+        <img src="public/frontend/assets/img/logo.png" alt="Logo du site"/>
+      </a>
 
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
