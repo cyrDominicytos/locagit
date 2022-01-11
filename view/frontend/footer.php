@@ -18,10 +18,10 @@
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> (33) 06 27 76 80 98 
+                  <span class="color-text-a">Phone .</span> <?= $parametres->getParams('phone_site') != null ? $parametres->getParams('phone_site')['valeur'] :'#'?></strong><br><?= $parametres->getParams('adresse_site') != null ? $parametres->getParams('adresse_site')['valeur'] :'#'?>
                 </li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span> admin@locagite.com
+                  <span class="color-text-a">Email .</span> <?= $parametres->getParams('email_site') != null ? $parametres->getParams('email_site')['valeur'] :'#'?></strong><br><?= $parametres->getParams('adresse_site') != null ? $parametres->getParams('adresse_site')['valeur'] :'#'?>
                 </li>
               </ul>
             </div>
