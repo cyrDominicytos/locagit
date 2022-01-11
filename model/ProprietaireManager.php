@@ -18,5 +18,4 @@ class ProprietaireManager
         return $this->proprietaire->getAll();
     }
 
-
 }

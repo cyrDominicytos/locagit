@@ -19,6 +19,11 @@ if (isset($_GET['action'])) {
     }
     elseif ($_GET['action'] == 'contact') {
         contact();
+    }elseif ($_GET['action'] == 'conditions') {
+        conditions();
+    }
+    elseif ($_GET['action'] == 'politique') {
+        politique();
     }
      //backend links
     elseif ($_GET['action'] == 'dashboard') {
@@ -39,19 +44,17 @@ if (isset($_GET['action'])) {
     elseif ($_GET['action'] == 'postes') {
         postes();
     }
-    elseif ($_GET['action'] == 'typeBien') {
-        typeBien();
+    elseif ($_GET['action'] == 'bienImmo') {
+        bienImmo();
     }
-    elseif ($_GET['action'] == 'conditions') {
-        conditions();
-    }
-    elseif ($_GET['action'] == 'politique') {
-        politique();
-    }
+    
 
 
     elseif ($_GET['action'] == 'insertPersonne') {
         insertPersonne();
+    }
+    elseif ($_GET['action'] == 'insertImmo') {
+        insertImmo();
     }
     elseif ($_GET['action'] == 'updateConfig') {
         updateConfig();

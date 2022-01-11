@@ -23,7 +23,7 @@
 								<i class="flaticon-right-arrow"></i>
 							</li>
 							<li class="nav-item">
-								<a href="#">Gérer les propriétés</a>
+								<a href="#">Gérer les personnes</a>
 							</li>
 						</ul>
 					</div>

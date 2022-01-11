@@ -5,6 +5,7 @@ require('model/CollaborateurManager.php');
 require('model/PartenaireManager.php');
 require('model/AdministrateurManager.php');
 require('model/ParametreManager.php');
+require('model/BienImmobilierManager.php');
 
 function dashboard()
 {
@@ -18,6 +19,11 @@ function immobiliers()
 function personnes()
 {
     require('view/backend/personnes.php');
+}
+
+function bienImmo()
+{
+    require('view/backend/immobilier.php');
 }
 
 function personne_liste()
@@ -48,74 +54,109 @@ function config()
 function insertPersonne()
 {
     if ($_POST) {
-        $msg["success"] = "Une nouvelle personne créé avec succès !";
-    switch ($_POST['type']) {
-        case '1':
-            $partenaires = new PartenaireManager(); 
-            $partenaires->add([
-                "nom"=>$_POST['nom'],
-                "prenom"=>$_POST['prenom'],
-                "email"=>$_POST['email'],
-                "telephone"=>$_POST['telephone'],
-                "adresse"=>"",
-                "imageUrl"=>"",
-                "sexe"=>$_POST['sexe'],
-                "siteUrl"=>$_POST['siteUrl'],
-                "ordreAffichage"=>$_POST['ordreAffichage'],
-                "estActif"=>1
-            ]);
-            break;
-        case '2':
-            $collaborateur = new CollaborateurManager(); 
-            $collaborateur->add([
-                "nom"=>$_POST['nom'],
-                "prenom"=>$_POST['prenom'],
-                "email"=>$_POST['email'],
-                "telephone"=>$_POST['telephone'],
-                "adresse"=>"",
-                "imageUrl"=>"",
-                "sexe"=>$_POST['sexe'],
-                "id_poste"=>1,
-                "ordreAffichage"=>$_POST['ordreAffichage'],
-                "estActif"=>1
-            ]);
-            break;
-        case '3':
-            $propretaire = new ProprietaireManager(); 
-            $propretaire->add([
-                "nom"=>$_POST['nom'],
-                "prenom"=>$_POST['prenom'],
-                "email"=>$_POST['email'],
-                "telephone"=>$_POST['telephone'],
-                "adresse"=>"",
-                "imageUrl"=>"",
-                "sexe"=>$_POST['sexe'],
-                "dateContrat"=>$_POST['dateContrat'],
-                "estActif"=>1
-            ]);
-            break;
-        case '4':
-            $admin = new AdministrateurManager(); 
-            $admin->add([
-                "nom"=>$_POST['nom'],
-                "prenom"=>$_POST['prenom'],
-                "email"=>$_POST['email'],
-                "telephone"=>$_POST['telephone'],
-                "adresse"=>"",
-                "imageUrl"=>"",
-                "sexe"=>$_POST['sexe'],
-                "estActif"=>1
-            ]);
-            break;
+        $msg["success"] = "Une nouvelle personne a été créé avec succès !";
+        switch ($_POST['type']) {
+            case '1':
+                $partenaires = new PartenaireManager(); 
+                $partenaires->add([
+                    "nom"=>$_POST['nom'],
+                    "prenom"=>$_POST['prenom'],
+                    "email"=>$_POST['email'],
+                    "telephone"=>$_POST['telephone'],
+                    "adresse"=>"",
+                    "imageUrl"=>"",
+                    "sexe"=>$_POST['sexe'],
+                    "siteUrl"=>$_POST['siteUrl'],
+                    "ordreAffichage"=>$_POST['ordreAffichage'],
+                    "estActif"=>1
+                ]);
+                break;
+            case '2':
+                $collaborateur = new CollaborateurManager(); 
+                $collaborateur->add([
+                    "nom"=>$_POST['nom'],
+                    "prenom"=>$_POST['prenom'],
+                    "email"=>$_POST['email'],
+                    "telephone"=>$_POST['telephone'],
+                    "adresse"=>"",
+                    "imageUrl"=>"",
+                    "sexe"=>$_POST['sexe'],
+                    "id_poste"=>1,
+                    "ordreAffichage"=>$_POST['ordreAffichage'],
+                    "estActif"=>1
+                ]);
+                break;
+            case '3':
+                $propretaire = new ProprietaireManager(); 
+                $propretaire->add([
+                    "nom"=>$_POST['nom'],
+                    "prenom"=>$_POST['prenom'],
+                    "email"=>$_POST['email'],
+                    "telephone"=>$_POST['telephone'],
+                    "adresse"=>"",
+                    "imageUrl"=>"",
+                    "sexe"=>$_POST['sexe'],
+                    "dateContrat"=>$_POST['dateContrat'],
+                    "estActif"=>1
+                ]);
+                break;
+            case '4':
+                $admin = new AdministrateurManager(); 
+                $admin->add([
+                    "nom"=>$_POST['nom'],
+                    "prenom"=>$_POST['prenom'],
+                    "email"=>$_POST['email'],
+                    "telephone"=>$_POST['telephone'],
+                    "adresse"=>"",
+                    "imageUrl"=>"",
+                    "sexe"=>$_POST['sexe'],
+                    "estActif"=>1
+                ]);
+                break;
+            
+            default:
+            $msg["error"] = "Erreu, le type de personne choisi est invalid!";
+                break;
+        }    
         
-        default:
-        $msg["error"] = "Erreu, le type de personne choisi est invalid!";
-            break;
+    header('Location: index.php?action=immobiliers');
     }
-   
+}
+//insert immobilier
+function insertImmo()
+{
+    if ($_POST) {
+        $msg["success"] = "Une nouvelle propriétée a été créé avec succès !";
+        
+        $bien = new BienImmobilierManager();
+        $data = [
+            "titre"=>$_POST['titre'],
+            "codePostal"=> (int)$_POST['codePostal'],
+            "ville"=>$_POST['ville'],
+            "enVente"=>0,
+            "enLocation"=>0,
+            "prixVente"=>0,
+            "prixLocation"=>0,
+            "description"=>(int)$_POST['description'],
+            "superficie"=>(int)$_POST['dimension'],
+            "chambre"=>(int)$_POST['chambre'],
+            "salle_bain"=>(int)$_POST['douche'],
+            "garage"=>(int)$_POST['garage'],
+            "id_type"=>(int) 1
+        ];
 
-   header('Location: index.php?action=personne_liste');
-   //return  personne_liste();
+      
+        if($_POST['estEnVente']){
+            $data['enVente'] = (int) $_POST['estEnVente'];
+            $data['prixVente'] =  $_POST['prixVente'];
+        }
+        if($_POST['estEnVente']){
+            $data['enLocation'] = (int) $_POST['estEnLocation'];
+            $data['prixLocation'] =  $_POST['prixLocation'];
+        }
+        $bien->add($data);
+        header('Location: index.php?action=immobiliers');
+        //return  personne_liste();
     }
 }
 
