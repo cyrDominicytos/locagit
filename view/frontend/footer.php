@@ -11,8 +11,8 @@
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
               <address>
-            <strong>Locagite</strong><br>
-            Rue, 506 Avenue Saint Grégoire.</address>
+            <strong><?= $parametres->getParams('nom_site') != null ? $parametres->getParams('nom_site')['valeur'] :'#'?></strong><br><?= $parametres->getParams('adresse_site') != null ? $parametres->getParams('adresse_site')['valeur'] :'#'?>
+            </address>
               </p>
             </div>
             <div class="w-footer-a">
@@ -91,22 +91,22 @@
           <div class="socials-a">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="<?= $parametres->getParams('facebook') != null ? $parametres->getParams('facebook')['valeur'] :'#'?>" target="_blank">
                   <i class="bi bi-facebook" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="<?= $parametres->getParams('twitter') != null ? $parametres->getParams('twitter')['valeur'] :'#'?>" target="_blank">
                   <i class="bi bi-twitter" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="<?= $parametres->getParams('instagram') != null ? $parametres->getParams('instagram')['valeur'] :'#'?>" target="_blank">
                   <i class="bi bi-instagram" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="<?= $parametres->getParams('linkedin') != null ? $parametres->getParams('linkedin')['valeur'] :'#'?>" target="_blank">
                   <i class="bi bi-linkedin" aria-hidden="true"></i>
                 </a>
               </li>
