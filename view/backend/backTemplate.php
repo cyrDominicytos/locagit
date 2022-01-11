@@ -7,14 +7,14 @@
 
   <title><?= $title ?></title>
   <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-	<link rel="icon" href="../../public/backend/assets/img/icon.ico" type="image/x-icon"/>
+	<link rel="icon" href="public/backend/assets/img/icon.ico" type="image/x-icon"/>
 
 	<!-- Fonts and icons -->
-	<script src="../../public/backend/assets/js/plugin/webfont/webfont.min.js"></script>
+	<script src="public/backend/assets/js/plugin/webfont/webfont.min.js"></script>
 	<script>
 		WebFont.load({
 			google: {"families":["Lato:300,400,700,900"]},
-			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['../../public/backend/assets/css/fonts.min.css']},
+			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['public/backend/assets/css/fonts.min.css']},
 			active: function() {
 				sessionStorage.fonts = true;
 			}
@@ -22,14 +22,14 @@
 	</script>
 
 	<!-- CSS Files -->
-	<link rel="stylesheet" href="../../public/backend/assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../../public/backend/assets/css/atlantis.min.css">
+	<link rel="stylesheet" href="public/backend/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="public/backend/assets/css/atlantis.min.css">
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
-	<link rel="stylesheet" href="../../public/backend/assets/css/demo.css">
+	<link rel="stylesheet" href="public/backend/assets/css/demo.css">
 
   	<!-- CSS customisation -->
-	<link rel="stylesheet" href="../../public/backend/assets/css/customiser.css">
+	<link rel="stylesheet" href="public/backend/assets/css/customiser.css">
     <!-- Specific css -->
     <?= isset($css) ? ($css) : ("") ?>
 </head>
@@ -122,46 +122,46 @@
 
 
   <!--   Core JS Files   -->
-  <script src="../../public/backend/assets/js/core/jquery.3.2.1.min.js"></script>
-    <script src="../../public/backend/assets/js/core/popper.min.js"></script>
-    <script src="../../public/backend/assets/js/core/bootstrap.min.js"></script>
+  <script src="public/backend/assets/js/core/jquery.3.2.1.min.js"></script>
+    <script src="public/backend/assets/js/core/popper.min.js"></script>
+    <script src="public/backend/assets/js/core/bootstrap.min.js"></script>
 
     <!-- jQuery UI -->
-    <script src="../../public/backend/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-    <script src="../../public/backend/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+    <script src="public/backend/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="public/backend/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
 
     <!-- jQuery Scrollbar -->
-    <script src="../../public/backend/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="public/backend/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
 
     <!-- Chart JS -->
-    <script src="../../public/backend/assets/js/plugin/chart.js/chart.min.js"></script>
+    <script src="public/backend/assets/js/plugin/chart.js/chart.min.js"></script>
 
     <!-- jQuery Sparkline -->
-    <script src="../../public/backend/assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+    <script src="public/backend/assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
 
     <!-- Chart Circle -->
-    <script src="../../public/backend/assets/js/plugin/chart-circle/circles.min.js"></script>
+    <script src="public/backend/assets/js/plugin/chart-circle/circles.min.js"></script>
 
     <!-- Datatables -->
-    <script src="../../public/backend/assets/js/plugin/datatables/datatables.min.js"></script>
+    <script src="public/backend/assets/js/plugin/datatables/datatables.min.js"></script>
 
     <!-- Bootstrap Notify -->
-    <script src="../../public/backend/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script src="public/backend/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
 
     <!-- jQuery Vector Maps -->
-    <script src="../../public/backend/assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
-    <script src="../../public/backend/assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
+    <script src="public/backend/assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
+    <script src="public/backend/assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
 
     <!-- Sweet Alert -->
-    <script src="../../public/backend/assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+    <script src="public/backend/assets/js/plugin/sweetalert/sweetalert.min.js"></script>
 
     <!-- Atlantis JS -->
-    <script src="../../public/backend/assets/js/atlantis.min.js"></script>
+    <script src="public/backend/assets/js/atlantis.min.js"></script>
 
     <!-- Atlantis DEMO methods, don't include it in your project! -->
-    <script src="../../public/backend/assets/js/setting-demo.js"></script>
-    <script src="../../public/backend/assets/js/demo.js"></script>
+    <script src="public/backend/assets/js/setting-demo.js"></script>
+    <script src="public/backend/assets/js/demo.js"></script>
     <script>
         Circles.create({
             id: 'circles-1',

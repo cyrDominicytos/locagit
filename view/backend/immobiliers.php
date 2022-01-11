@@ -2,7 +2,7 @@
 <?php $page = 1; ?>
 <!-- specific css -->
 <?php ob_start(); ?>
-<link rel="stylesheet" href="../../public/backend/assets/css/custom.css"/>
+<link rel="stylesheet" href="public/backend/assets/css/custom.css"/>
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 <?php $css = ob_get_clean(); ?>
 

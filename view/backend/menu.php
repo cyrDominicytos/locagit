@@ -4,7 +4,7 @@
                 <div class="sidebar-content">
                     <div class="user">
                         <div class="avatar-sm float-left mr-2">
-                            <img src="../../public/backend/assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+                            <img src="public/backend/assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
                         </div>
                         <div class="info">
                             <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
@@ -34,7 +34,7 @@
                     </div>
                     <ul class="nav nav-primary">
                         <li class="nav-item active">
-                            <a href="index.php">
+                            <a href="index.php?action=dashboard">
                                 <i class="fas fa-home"></i>
                                 <p>Tableau de bord</p>
                                
@@ -47,28 +47,28 @@
                             <h4 class="text-section">Fonctionnalités</h4>
                         </li>
                         <li class="nav-item">
-                            <a href="immobiliers.php" >
+                            <a href="index.php?action=immobiliers" >
                                 <i class="fas fa-layer-group"></i>
                                 <p>Gérer les propriétés</p>
                                 <span class="badge badge-success">0</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="typeBien.php">
+                            <a href="index.php?action=typeBien">
                                 <i class="fas fa-th-list"></i>
                                 <p>Gérer les types de bien</p>
                                 <span class="badge badge-success">0</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="postes.php">
+                            <a href="index.php?action=postes">
                                 <i class="fas fa-th-list"></i>
                                 <p>Gérer les postes</p>
                                 <span class="badge badge-success">0</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="personneListes.php">
+                            <a href="index.php?action=personne_liste">
                                 <i class="fas fa-pen-square"></i>
                                 <p>Gérer les personnes</p>
                                 <span class="badge badge-success">0</span>
@@ -83,7 +83,7 @@
                             <div class="collapse" id="submenu">
                                 <ul class="nav nav-collapse">
                                     <li>
-                                        <a href="config.php">
+                                        <a href="index.php?action=config">
                                             <span class="sub-item">Informations de l'agence</span>
                                         </a>
                                     </li>

@@ -7,7 +7,7 @@
 
     <div class="swiper-wrapper">
 
-      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(../../public/frontend/assets/img/slide-1.jpg)" onclick="window.open('../../public/frontend/assets/img/slide-1.jpg','_self');">
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(public/frontend/assets/img/slide-1.jpg)" onclick="window.open('public/frontend/assets/img/slide-1.jpg','_self');">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -32,7 +32,7 @@
           </div>
         </div>
       </div>
-      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(../../public/frontend/assets/img/slide-2.jpg)" onclick="window.open('../../public/frontend/assets/img/slide-2.jpg','_self');">
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(public/frontend/assets/img/slide-2.jpg)" onclick="window.open('public/frontend/assets/img/slide-2.jpg','_self');">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -57,7 +57,7 @@
           </div>
         </div>
       </div>
-      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(../../public/frontend/assets/img/slide-3.jpg)" onclick="window.open('../../public/frontend/assets/img/slide-3.jpg','_self');">
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(public/frontend/assets/img/slide-3.jpg)" onclick="window.open('public/frontend/assets/img/slide-3.jpg','_self');">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -114,7 +114,7 @@
             <div class="carousel-item-b swiper-slide">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="../../public/frontend/assets/img/property-6.jpg" alt="" class="img-a img-fluid">
+                  <img src="public/frontend/assets/img/property-6.jpg" alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
@@ -162,7 +162,7 @@
             <div class="carousel-item-b swiper-slide">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="../../public/frontend/assets/img/property-3.jpg" alt="" class="img-a img-fluid">
+                  <img src="public/frontend/assets/img/property-3.jpg" alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
@@ -210,7 +210,7 @@
             <div class="carousel-item-b swiper-slide">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="../../public/frontend/assets/img/property-7.jpg" alt="" class="img-a img-fluid">
+                  <img src="public/frontend/assets/img/property-7.jpg" alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
@@ -258,7 +258,7 @@
             <div class="carousel-item-b swiper-slide">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="../../public/frontend/assets/img/property-10.jpg" alt="" class="img-a img-fluid">
+                  <img src="public/frontend/assets/img/property-10.jpg" alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
@@ -334,7 +334,7 @@
             <div class="carousel-item-c swiper-slide">
               <div class="card-box-b card-shadow news-box">
                 <div class="img-box-b">
-                  <img src="../../public/frontend/assets/img/post-2.jpg" alt="" class="img-b img-fluid">
+                  <img src="public/frontend/assets/img/post-2.jpg" alt="" class="img-b img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-header-b">
@@ -358,7 +358,7 @@
             <div class="carousel-item-c swiper-slide">
               <div class="card-box-b card-shadow news-box">
                 <div class="img-box-b">
-                  <img src="../../public/frontend/assets/img/post-5.jpg" alt="" class="img-b img-fluid">
+                  <img src="public/frontend/assets/img/post-5.jpg" alt="" class="img-b img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-header-b">
@@ -382,7 +382,7 @@
             <div class="carousel-item-c swiper-slide">
               <div class="card-box-b card-shadow news-box">
                 <div class="img-box-b">
-                  <img src="../../public/frontend/assets/img/post-7.jpg" alt="" class="img-b img-fluid">
+                  <img src="public/frontend/assets/img/post-7.jpg" alt="" class="img-b img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-header-b">
@@ -406,7 +406,7 @@
             <div class="carousel-item-c swiper-slide">
               <div class="card-box-b card-shadow news-box">
                 <div class="img-box-b">
-                  <img src="../../public/frontend/assets/img/post-3.jpg" alt="" class="img-b img-fluid">
+                  <img src="public/frontend/assets/img/post-3.jpg" alt="" class="img-b img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-header-b">

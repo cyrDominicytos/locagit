@@ -2,7 +2,7 @@
 <?php $page = 1; ?>
 <!-- specific css -->
 <?php ob_start(); ?>
-<link rel="stylesheet" href="../../public/backend/assets/css/custom.css"/>
+<link rel="stylesheet" href="public/backend/assets/css/custom.css"/>
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 <?php $css = ob_get_clean(); ?>
 
@@ -36,50 +36,50 @@
 									</div>
 								</div>
 								<div class="card-body">
-									<form >
+									<form action="index.php?action=updateConfig" method="post" enctype="multipart/form" >
                                     <div class="row">
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="nom" name="nom"   type="text"  class="form-control input-border-bottom" required  max="200">
+														<input  id="nom" name="nom"   type="text" value="<?= $parametres->getParams('nom_site') != null ? $parametres->getParams('nom_site')['valeur'] :''?>" class="form-control input-border-bottom" required  max="200">
 														<label for="nom" class="placeholder">Nom de l'agence*</label>
 													</div>
 												</div>
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="adresse" name="adresse"   type="text"  class="form-control input-border-bottom" required max="200">
+														<input  id="adresse" name="adresse"   type="text" value="<?= $parametres->getParams('adresse_site') != null ? $parametres->getParams('adresse_site')['valeur'] :''?>"  class="form-control input-border-bottom" required max="200">
 														<label for="adresse" class="placeholder">Adresse complete *</label>
 													</div>
 												</div>
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="email" name="email"   type="email"  class="form-control input-border-bottom" required max="200">
+														<input  id="email" name="email"   type="email" value="<?= $parametres->getParams('email_site') != null ? $parametres->getParams('email_site')['valeur'] :''?>"  class="form-control input-border-bottom" required max="200">
 														<label for="email" class="placeholder">Email *</label>
 													</div>
 												</div>
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="telephone" name="telephone"   type="text"  class="form-control input-border-bottom" required max="200">
+														<input  id="telephone" name="telephone"   type="text" value="<?= $parametres->getParams('phone_site') != null ? $parametres->getParams('phone_site')['valeur'] :''?>" class="form-control input-border-bottom" required max="200">
 														<label for="telephone" class="placeholder">Téléphone *</label>
 													</div>
 												</div>
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="facebook" name="facebook"   type="text"  class="form-control input-border-bottom" >
+														<input  id="facebook" name="facebook"   type="text" value="<?= $parametres->getParams('facebook') != null ? $parametres->getParams('facebook')['valeur'] :''?>"  class="form-control input-border-bottom" >
 														<label for="facebook" class="placeholder">Lien Facebook</label>													</div>
 												</div>
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="instagram" name="instagram"   type="text"  class="form-control input-border-bottom" >
+														<input  id="instagram" name="instagram"   type="text" value="<?= $parametres->getParams('instagram') != null ? $parametres->getParams('instagram')['valeur'] :''?>"  class="form-control input-border-bottom" >
 														<label for="instagram" class="placeholder">Lien Instagram</label>													</div>
 												</div>
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="twitter" name="twitter"   type="text"  class="form-control input-border-bottom" >
+														<input  id="twitter" name="twitter"   type="text" value="<?= $parametres->getParams('twitter') != null ? $parametres->getParams('twitter')['valeur'] :''?>"  class="form-control input-border-bottom" >
 														<label for="twitter" class="placeholder">Lien Twitter</label>													</div>
 												</div>
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="linkedin" name="linkedin"   type="text"  class="form-control input-border-bottom">
+														<input  id="linkedin" name="linkedin"   type="text"  value="<?= $parametres->getParams('linkedin') != null ? $parametres->getParams('linkedin')['valeur'] :''?>" class="form-control input-border-bottom">
 														<label for="linkedin" class="placeholder">Lien LinkedIn</label>													</div>
 												</div>
                                                 <div class="col-md-4 offset-md-4" >

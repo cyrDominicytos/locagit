@@ -2,7 +2,7 @@
 <?php $page = 1; ?>
 <!-- specific css -->
 <?php ob_start(); ?>
-<link rel="stylesheet" href="../../public/backend/assets/css/custom.css"/>
+<link rel="stylesheet" href="public/backend/assets/css/custom.css"/>
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 <?php $css = ob_get_clean(); ?>
 
@@ -36,16 +36,16 @@
 									</div>
 								</div>
 								<div class="card-body">
-									<form >
+									<form action="index.php?action=insertPersonne" method="post" enctype="multipart/form">
                                     <div class="row">
 												<div class="col-md-12">
                                                     <div class="avatar-lg" style="display: inline-block; vertical-align: middle;">
-                                                        <img src="../../public/backend/assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+                                                        <img src="public/backend/assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
                                                     </div>
 												</div>
 												<div class="col-md-6">
 													<div class="form-group form-floating-label">
-														<input  id="nom" name="nom"   type="text"  class="form-control input-border-bottom" required max="200">
+														<input  id="nom" name="nom"   type="text"   class="form-control input-border-bottom" required max="200">
 														<label for="nom" class="placeholder">Nom *</label>
 													</div>
 												</div>
@@ -89,25 +89,25 @@
 												</div>
                                                 <div class="col-md-6" id="siteUrlDiv" style="display:none">
 													<div class="form-group form-floating-label">
-														<input  id="siteUrl" name="siteUrl"   type="text"  class="form-control input-border-bottom" required max="200">
+														<input  id="siteUrl" name="siteUrl"   type="text"  class="form-control input-border-bottom"  >
 														<label for="siteUrl" class="placeholder">Site Url *</label>
 													</div>
 												</div>
                                                 <div class="col-md-6" id="ordreAfficheDiv1" style="display:none">
 													<div class="form-group form-floating-label">
-														<input  id="ordreAffiche" name="ordreAffiche" type="text"  class="form-control input-border-bottom" required max="200">
+														<input  id="ordreAffiche" name="ordreAffiche" type="number"  class="form-control input-border-bottom"  value="0">
 														<label for="ordreAffiche" class="placeholder">Ordre Affichage *</label>
 													</div>
 												</div>
                                                 <div class="col-md-4 offset-md-4" id="ordreAfficheDiv2" style="display:none">
 													<div class="form-group form-floating-label">
-														<input  id="ordreAffiche" name="ordreAffiche" type="text"  class="form-control input-border-bottom" required max="200">
+														<input  id="ordreAffiche" name="ordreAffiche" type="number"  class="form-control input-border-bottom"  value="0">
 														<label for="ordreAffiche" class="placeholder">Ordre Affichage *</label>
 													</div>
 												</div>
                                                 <div class="col-md-4 offset-md-4" id="dateContratDiv" style="display:none">
 													<div class="form-group form-floating-label">
-														<input  id="dateContrat" name="dateContrat" type="date"  class="form-control input-border-bottom" required max="200">
+														<input  id="dateContrat" name="dateContrat" type="date"  class="form-control input-border-bottom"  max="200">
 														<label for="dateContrat" class="placeholder">Date de contrat *</label>
 													</div>
 												</div>
@@ -147,19 +147,21 @@
             document.getElementById("ordreAfficheDiv1").style.display ="block";
          break;
         case "2":
+
             closeAllOptions() ;
             document.getElementById("ordreAfficheDiv2").style.display ="block";
          break;
-        case 3:
+        case "3":
             closeAllOptions() ;
             document.getElementById("dateContratDiv").style.display ="block";            
          break;
-        case 4:
+        case "4":
             closeAllOptions() ;
          break;
             
         default:
         closeAllOptions() ;
+        
         break;
     }
 

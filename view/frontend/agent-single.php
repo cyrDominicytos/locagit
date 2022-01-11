@@ -18,7 +18,7 @@
             <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="#">Home</a>
+                  <a href="#">Accueil</a>
                 </li>
                 <li class="breadcrumb-item">
                   <a href="#">Agents</a>
@@ -41,7 +41,7 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="agent-avatar-box">
-                  <img src="../../public/frontend/assets/img/agent-7.jpg" alt="" class="agent-avatar img-fluid">
+                  <img src="public/frontend/assets/img/agent-7.jpg" alt="" class="agent-avatar img-fluid">
                 </div>
               </div>
               <div class="col-md-5 section-md-t3">
@@ -131,7 +131,7 @@
             <div class="col-md-4">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="../../public/frontend/assets/img/property-1.jpg" alt="" class="img-a img-fluid">
+                  <img src="public/frontend/assets/img/property-1.jpg" alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
@@ -178,7 +178,7 @@
             <div class="col-md-4">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="../../public/frontend/assets/img/property-3.jpg" alt="" class="img-a img-fluid">
+                  <img src="public/frontend/assets/img/property-3.jpg" alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
@@ -225,7 +225,7 @@
             <div class="col-md-4">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="../../public/frontend/assets/img/property-6.jpg" alt="" class="img-a img-fluid">
+                  <img src="public/frontend/assets/img/property-6.jpg" alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
@@ -272,7 +272,7 @@
             <div class="col-md-4">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="../../public/frontend/assets/img/property-7.jpg" alt="" class="img-a img-fluid">
+                  <img src="public/frontend/assets/img/property-7.jpg" alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
@@ -319,7 +319,7 @@
             <div class="col-md-4">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="../../public/frontend/assets/img/property-8.jpg" alt="" class="img-a img-fluid">
+                  <img src="public/frontend/assets/img/property-8.jpg" alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">
@@ -366,7 +366,7 @@
             <div class="col-md-4">
               <div class="card-box-a card-shadow">
                 <div class="img-box-a">
-                  <img src="../../public/frontend/assets/img/property-10.jpg" alt="" class="img-a img-fluid">
+                  <img src="public/frontend/assets/img/property-10.jpg" alt="" class="img-a img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-overlay-a-content">

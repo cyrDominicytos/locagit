@@ -34,17 +34,22 @@
     <section class="agents-grid grid">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+           <?php 
+            if(isset($collaborateurs)){
+              while ($collaborateur = $collaborateurs->fetch())
+              {
+              ?>
+                 <div class="col-md-4">
             <div class="card-box-d">
               <div class="card-img-d">
-                <img src="../../public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
+                <img src="public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
               </div>
               <div class="card-overlay card-overlay-hover">
                 <div class="card-header-d">
                   <div class="card-title-d align-self-center">
                     <h3 class="title-d">
-                      <a href="#" class="link-two">Margaret Sotillo
-                        <br> Escala</a>
+                      <a href="#" class="link-two"><?= htmlspecialchars($collaborateur['nom']).htmlspecialchars($collaborateur['prenom'])?>
+                        <br>Sécrétaire</a>
                     </h3>
                   </div>
                 </div>
@@ -54,10 +59,10 @@
                   </p>
                   <div class="info-agents color-a">
                     <p>
-                      <strong>Phone: </strong> +54 356 945234
+                      <strong>Téléphone: </strong> <?=  htmlspecialchars($collaborateur['telephone']) ?>
                     </p>
                     <p>
-                      <strong>Email: </strong> margaret@locagite.com
+                      <strong>Email: </strong> <?=  htmlspecialchars($collaborateur['email']) ?>
                     </p>
                   </div>
                 </div>
@@ -90,10 +95,15 @@
               </div>
             </div>
           </div>
+            <?php } } ?>
+					
+         
+          
+          
           <div class="col-md-4">
             <div class="card-box-d">
               <div class="card-img-d">
-                <img src="../../public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
+                <img src="public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
               </div>
               <div class="card-overlay card-overlay-hover">
                 <div class="card-header-d">
@@ -149,7 +159,7 @@
            <div class="col-md-4">
             <div class="card-box-d">
               <div class="card-img-d">
-                <img src="../../public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
+                <img src="public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
               </div>
               <div class="card-overlay card-overlay-hover">
                 <div class="card-header-d">
@@ -205,7 +215,7 @@
           <div class="col-md-4">
             <div class="card-box-d">
               <div class="card-img-d">
-                <img src="../../public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
+                <img src="public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
               </div>
               <div class="card-overlay card-overlay-hover">
                 <div class="card-header-d">
@@ -261,7 +271,7 @@
           <div class="col-md-4">
             <div class="card-box-d">
               <div class="card-img-d">
-                <img src="../../public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
+                <img src="public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
               </div>
               <div class="card-overlay card-overlay-hover">
                 <div class="card-header-d">
@@ -317,7 +327,7 @@
            <div class="col-md-4">
             <div class="card-box-d">
               <div class="card-img-d">
-                <img src="../../public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
+                <img src="public/frontend/assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
               </div>
               <div class="card-overlay card-overlay-hover">
                 <div class="card-header-d">

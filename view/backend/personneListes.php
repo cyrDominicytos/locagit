@@ -32,7 +32,7 @@
 								<div class="card-header">
 									<!-- Button -->
 					<div class="d-flex">
-						<button class="btn btn-primary btn-round ml-auto mb-3" onclick="document.location='personnes.php'" >
+						<button class="btn btn-primary btn-round ml-auto mb-3" onclick="document.location='index.php?action=personnes'" >
 							<i class="fa fa-plus"></i>
 							Créer nouveau
 
@@ -44,36 +44,49 @@
 						<table id="add-row" class="display table table-striped table-hover" cellspacing="0" width="100%">
 							<thead>
 								<tr role="row">
-									<th class="sorting_asc" tabindex="0" aria-controls="add-row" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 69px;">Désignation</th>
-									<th class="sorting" tabindex="0" aria-controls="add-row" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 65px;">Description</th>
-									<th class="sorting" tabindex="0" aria-controls="add-row" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 59px;">Créé le</th>
+									<th class="sorting_asc" tabindex="0" aria-controls="add-row" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 69px;">Nom et Prénoms</th>
+									<th class="sorting" tabindex="0" aria-controls="add-row" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending" style="width: 65px;">Email</th>
+									<th class="sorting" tabindex="0" aria-controls="add-row" rowspan="1" colspan="1" aria-label="Téléphone: activate to sort column ascending" style="width: 65px;">Téléphone</th>
+									<th class="sorting" tabindex="0" aria-controls="add-row" rowspan="1" colspan="1" aria-label="Statut: activate to sort column ascending" style="width: 65px;">Statut</th>
+									<th class="sorting" tabindex="0" aria-controls="add-row" rowspan="1" colspan="1" aria-label="Créé le: activate to sort column ascending" style="width: 59px;">Créé le</th>
 									<th width="10%" class="sorting" tabindex="0" aria-controls="add-row" rowspan="1" colspan="1" aria-label="Action: activate to sort column ascending" style="width: 127px;">Actions</th>
 								</tr>
 							</thead>
 							<tfoot>
-								<tr>
-									<th rowspan="1" colspan="1">Désignation</th>
-									<th rowspan="1" colspan="1">Description</th>
-									<th rowspan="1" colspan="1">Créé le</th>
-									<th rowspan="1" colspan="1">Actions</th>
-								</tr>
+							<tr role="row">
+									<th rowspan="1" colspan="1">Nom et Prénoms</th>
+									<th  rowspan="1" colspan="1" >Email</th>
+									<th  rowspan="1" colspan="1" >Téléphone</th>
+									<th  rowspan="1" colspan="1" >Statut</th>
+									<th  rowspan="1" colspan="1" >Créé le</th>
+									<th  rowspan="1" colspan="1" >Actions</th>
+								</tr>								
 							</tfoot>
 							<tbody>
-								<tr role="row" class="odd">
-									<td class="sorting_1">Maison</td>
-									<td>Maison à louer ou à vendre</td>
-									<td>10/01/2020</td>
-									<td>
-										<div class="form-button-action">
-											<button type="button" data-toggle="modal" data-target="#addRowModal" onclick="edit(1)" title="" class="btn btn-link btn-simple-primary btn-lg" data-original-title="Edit Task">
-												<i class="fa fa-edit"></i>
-											</button>
-											<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-simple-danger" data-original-title="Remove">
-												<i class="fa fa-times"></i>
-											</button>
-										</div>
-									</td>
-								</tr>
+							<?php 
+								if(isset($personnes)){
+									while ($personne = $personnes->fetch())
+									{
+									?>
+
+									<tr>
+										<td><?=  htmlspecialchars($personne['nom']).htmlspecialchars($personne['prenom']) ?></td>
+										<td><?=  htmlspecialchars($personne['email']) ?></td>
+										<td><?=  htmlspecialchars($personne['telephone']) ?></td>
+										<td><?= $personne['estActif'] ?></td>
+										<td><?= $personne['dateAjout']  ?></td>
+										<td>
+											<div class="form-button-action">
+												<button type="button" data-toggle="modal" data-target="#addRowModal" onclick="edit(1)" title="" class="btn btn-link btn-simple-primary btn-lg" data-original-title="Edit Task">
+													<i class="fa fa-edit"></i>
+												</button>
+												<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-simple-danger" data-original-title="Remove">
+													<i class="fa fa-times"></i>
+												</button>
+											</div>
+										</td>
+									</tr>
+								<?php } } ?>
 							</tbody>
 						</table>
 					</div>

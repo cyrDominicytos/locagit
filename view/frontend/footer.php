@@ -115,7 +115,7 @@
           <div class="copyright-footer">
             <p class="copyright color-text-a">
               &copy; 2021
-              <span class="color-a">LOCAGITE. </span> TOUS DROITS RÉSERVÉS. 
+              <span class="color-a" style="text-transform:uppercase"><?= $parametres->getParams('nom_site') != null ? $parametres->getParams('nom_site')['valeur'] :''?>. </span> TOUS DROITS RÉSERVÉS. 
             </p>
           </div>
         </div>

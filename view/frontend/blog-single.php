@@ -36,7 +36,7 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="news-img-box">
-              <img src="../../public/frontend/assets/img/slide-3.jpg" alt="" class="img-fluid">
+              <img src="public/frontend/assets/img/slide-3.jpg" alt="" class="img-fluid">
             </div>
           </div>
           <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
@@ -124,7 +124,7 @@
               <ul class="list-comments">
                 <li>
                   <div class="comment-avatar">
-                    <img src="../../public/frontend/assets/img/author-2.jpg" alt="">
+                    <img src="public/frontend/assets/img/author-2.jpg" alt="">
                   </div>
                   <div class="comment-details">
                     <h4 class="comment-author">Emma Stone</h4>
@@ -139,7 +139,7 @@
                 </li>
                 <li class="comment-children">
                   <div class="comment-avatar">
-                    <img src="../../public/frontend/assets/img/author-1.jpg" alt="">
+                    <img src="public/frontend/assets/img/author-1.jpg" alt="">
                   </div>
                   <div class="comment-details">
                     <h4 class="comment-author">Oliver Colmenares</h4>
@@ -154,7 +154,7 @@
                 </li>
                 <li>
                   <div class="comment-avatar">
-                    <img src="../../public/frontend/assets/img/author-2.jpg" alt="">
+                    <img src="public/frontend/assets/img/author-2.jpg" alt="">
                   </div>
                   <div class="comment-details">
                     <h4 class="comment-author">Emma Stone</h4>
